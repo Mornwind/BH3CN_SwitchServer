@@ -23,7 +23,7 @@ list = {
             }, 
             "name": "android01", 
             "retcode": 0, 
-            "title": "android"
+            "title": "安卓国服"
         }, 
         {
             "dispatch_url": "http://139.224.7.27/query_gameserver", 
@@ -50,6 +50,58 @@ list = {
             "name": "pc01", 
             "retcode": 0, 
             "title": "pc01"
+        }, 
+        {
+            "dispatch_url": "http://139.196.248.220/query_gameserver", 
+            "ext": {
+                "data_use_asset_boundle": "1", 
+                "res_use_asset_boundle": "1", 
+                "server_stop_jump_name": "前往米游社", 
+                "server_stop_jump_to_url": "https://m.bbs.mihayo.com/bh3ToBBS.html", 
+                "update_streaming_asb": "1"
+            }, 
+            "name": "bb01", 
+            "retcode": 0, 
+            "title": "BiliBili服"
+        }, 
+        {
+            "dispatch_url": "http://115.159.20.29/query_gameserver", 
+            "ext": {
+                "data_use_asset_boundle": "1", 
+                "res_use_asset_boundle": "1", 
+                "server_stop_jump_name": "前往米游社", 
+                "server_stop_jump_to_url": "https://m.bbs.mihayo.com/bh3ToBBS.html", 
+                "update_streaming_asb": "1"
+            }, 
+            "name": "yyb01", 
+            "retcode": 0, 
+            "title": "应用宝服"
+        }, 
+        {
+            "dispatch_url": "http://139.196.248.218/query_gameserver", 
+            "ext": {
+                "data_use_asset_boundle": "1", 
+                "res_use_asset_boundle": "1", 
+                "server_stop_jump_name": "前往米游社", 
+                "server_stop_jump_to_url": "https://m.bbs.mihayo.com/bh3ToBBS.html", 
+                "update_streaming_asb": "1"
+            }, 
+            "name": "hun01", 
+            "retcode": 0, 
+            "title": "混服01"
+        }, 
+        {
+            "dispatch_url": "http://139.196.248.219/query_gameserver", 
+            "ext": {
+                "data_use_asset_boundle": "1", 
+                "res_use_asset_boundle": "1", 
+                "server_stop_jump_name": "前往米游社", 
+                "server_stop_jump_to_url": "https://m.bbs.mihayo.com/bh3ToBBS.html", 
+                "update_streaming_asb": "1"
+            }, 
+            "name": "hun02", 
+            "retcode": 0, 
+            "title": "混服02"
         }
     ], 
     "retcode": 0
