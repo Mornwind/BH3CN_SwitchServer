@@ -1,7 +1,7 @@
 # 「崩坏3（iOS版）服务器列表补全」
-> By: Mornwind
+> By: [Mornwind](https://github.com/Mornwind/BH3_Region_Selector)
 > 
-> Reference: FlintyLemming / 霞ヶ丘詩羽x
+> Reference: [FlintyLemming](https://git.flinty.moe/root/bh3-switch) / [霞ヶ丘詩羽x](https://www.bilibili.com/read/cv3610324)
 
 ## Surge 4:
 ```
