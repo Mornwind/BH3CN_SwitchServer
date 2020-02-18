@@ -1,4 +1,4 @@
-# 「崩坏3（iOS版）补全国服服务器列表」
+# 「崩坏3（iOS版）国服服务器列表补全计划」
 > By: [Mornwind](https://github.com/Mornwind/BH3_Region_Selector)
 > 
 > Reference: [FlintyLemming](https://git.flinty.moe/root/bh3-switch) / [霞ヶ丘詩羽x](https://www.bilibili.com/read/cv3610324)
