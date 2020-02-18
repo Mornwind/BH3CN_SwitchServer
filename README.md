@@ -19,7 +19,7 @@
 
 ## ⒉ 配置信息
 ### ⑴ 新手使用（默认全平台列表，只使用 URL 重定向）
-#### ① Surge 4:
+#### ① Surge 4：
 ```
 [URL Rewrite]
 # 获取全平台服务器列表
@@ -50,17 +50,11 @@ hostname = global*.bh3.com
 #### ② Quantumult X：
 ```
 [rewrite_remote]
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_rewrite_remote.conf, tag=BH3 Region Rewrite, enabled=true
-
-[rewrite_local]
-^https:\/\/global(\d*)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*) url 302 https://global$1.bh3.com/query_dispatch?version=$2_gf_pc
-
-[MITM]
-hostname = *.bh3.com
+https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_rewrite_basic.conf, tag=BH3 Region Rewrite, enabled=true
 ```
 
 ### ⑵ 进阶使用（自定义服务器列表，利用脚本 + URL 重定向）
-#### ① Surge 4:
+#### ① Surge 4：
 ```
 [URL Rewrite]
 # 官服
@@ -90,7 +84,7 @@ hostname = global*.bh3.com
 #### ② Quantumult X：
 ```
 [rewrite_remote]
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_rewrite_remote.conf, tag=BH3 Region Rewrite, enabled=true
+https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_rewrite_advanced.conf, tag=BH3 Region Rewrite, enabled=true
 
 [rewrite_local]
 ^https:\/\/global(\d*)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*) url script-response-body bh3_region_list.js
