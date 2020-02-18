@@ -1,5 +1,5 @@
 /*
-「崩坏3（iOS版）国服服务器列表补全」
+「崩坏3（iOS版）补全国服服务器列表」
 By: Mornwind
 Reference: FlintyLemming / 霞ヶ丘詩羽x
 
