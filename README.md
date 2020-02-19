@@ -3,6 +3,7 @@
 > 
 > Reference: [FlintyLemming](https://git.flinty.moe/root/bh3-switch) / [霞ヶ丘詩羽x](https://www.bilibili.com/read/cv3610324)
 
+![国服服务器列表预览](/bh3_region_list_preview.gif)
 
 ## ⒈ 国服平台代码
 > 以下为连接各个国服服务器时适用的平台代码。
