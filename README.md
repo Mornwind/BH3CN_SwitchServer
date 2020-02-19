@@ -1,12 +1,12 @@
 # 「崩坏3（iOS版）国服服务器列表补全计划」
-> By: [Mornwind](https://github.com/Mornwind/BH3_Region_Selector)
-> 
-> Reference: [FlintyLemming](https://git.flinty.moe/root/bh3-switch) / [霞ヶ丘詩羽x](https://www.bilibili.com/read/cv3610324)
+ > By: [Mornwind](https://github.com/Mornwind/BH3_Region_Selector)
+ > 
+ > Reference: [FlintyLemming](https://git.flinty.moe/root/bh3-switch) / [霞ヶ丘詩羽x](https://www.bilibili.com/read/cv3610324)
 
 ![国服服务器列表预览](/bh3_region_list_preview.gif)
 
 ## ⒈ 国服平台代码
-> 以下为连接各个国服服务器时适用的平台代码。
+ > 以下为分别连接不同的国服服务器时，有效的平台代码。
 
 - 官服
   - 安卓服：`gf_android`，`gf_pc`
@@ -19,7 +19,11 @@
   - 混服02：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
 
 ## ⒉ 配置信息
-### ⑴ 新手使用（默认全平台列表，只使用 URL 重定向）
+### ⑴ 新手使用
+ > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过渠道服入口暂被隐藏）。
+ > 
+ > 只使用 URL 重定向。
+
 #### ① Surge 4：
 ```
 [URL Rewrite]
@@ -54,7 +58,11 @@ hostname = global*.bh3.com
 https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_rewrite_basic.conf, tag=BH3 Region Rewrite, enabled=true
 ```
 
-### ⑵ 进阶使用（自定义服务器列表，利用脚本 + URL 重定向）
+### ⑵ 进阶使用
+ > 自定义服务器列表，可调整顺序、删去多余服务器。
+ > 
+ > 利用脚本 + URL 重定向。
+
 #### ① Surge 4：
 ```
 [URL Rewrite]
