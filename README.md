@@ -9,20 +9,20 @@
  > 以下为分别连接不同的国服服务器时，有效的平台代码。
 
 - 官服
-  - 安卓服：`gf_android`，`gf_pc`
-  - iOS服：`gf_ios`，`gf_pc`
+  - 安卓国服：`gf_android`，`gf_pc`
+  - iOS国服：`gf_ios`，`gf_pc`
   - 全平台（桌面）服：`gf_pc`，`gf_android`，`gf_ios`
 - 渠道服（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
-  - BiliBili服：`gf_pc`，`gf_android_bilibili`
+  - Bilibili服：`gf_pc`，`gf_android_bilibili`
   - 应用宝服：`gf_pc`，`gf_android_tencent`
-  - 混服01：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
-  - 混服02：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
+  - 渠道1服：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
+  - 渠道2服：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
 
 ## ⒉ 配置信息
 ### ⑴ 新手使用
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过渠道服入口暂被隐藏）。
  > 
- > 只使用 URL 重定向。
+ > 只使用 **URL 重定向（URL Rewrite）** 功能实现。
 
 #### ① Surge 4：
 ```
@@ -39,13 +39,13 @@
 # >> 全平台（桌面）服
 ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://106.15.162.73/query_gameserver?version=$1_gf_pc 302
 # > 渠道服（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
-# >> BiliBili服
+# >> Bilibili服
 ^http:\/\/139\.196\.248\.220\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139>.196.248.220/query_gameserver?version=$1_gf_pc 302
 # >> 应用宝服
 ^http:\/\/115\.159\.20\.29\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://115.159.20.29/query_gameserver?version=$1_gf_pc 302
-# >> 混服01
+# >> 渠道1服
 ^http:\/\/139\.196\.248\.218\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc 302
-# >> 混服02
+# >> 渠道2服
 ^http:\/\/139\.196\.248\.219\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc 302
 
 [MITM]
@@ -61,7 +61,7 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region
 ### ⑵ 进阶使用
  > 自定义服务器列表，可调整顺序、删去多余服务器。
  > 
- > 利用脚本 + URL 重定向。
+ > 利用 **脚本（Script）** 与 **URL 重定向（URL Rewrite）** 功能共同实现。
 
 #### ① Surge 4：
 ```
@@ -74,13 +74,13 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region
 # > 全平台（桌面）服
 ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://106.15.162.73/query_gameserver?version=$1_gf_pc 302
 # 渠道服（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
-# > BiliBili服
+# > Bilibili服
 ^http:\/\/139\.196\.248\.220\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc 302
 # > 应用宝服
 ^http:\/\/115\.159\.20\.29\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://115.159.20.29/query_gameserver?version=$1_gf_pc 302
-# > 混服01
+# > 渠道1服
 ^http:\/\/139\.196\.248\.218\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc 302
-# > 混服02
+# > 渠道2服
 ^http:\/\/139\.196\.248\.219\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc 302
 
 [Script]
