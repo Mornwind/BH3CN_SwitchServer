@@ -1,5 +1,5 @@
 /*
-「崩坏3（iOS版）国服服务器列表补全计划」
+「崩坏3 跨服」（iOS客户端 → 国服其他服务器）
 By: Mornwind
 Reference: FlintyLemming / 霞ヶ丘詩羽x
 

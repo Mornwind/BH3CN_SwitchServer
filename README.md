@@ -1,8 +1,8 @@
-# 「崩坏3（iOS版）国服服务器列表补全计划」
+# 「崩坏3 跨服」（iOS客户端 → 国服其他服务器）
  > By: [Mornwind](https://github.com/Mornwind/BH3_Region_Selector) 
 
 ## 参考来源
- > ① 霞ヶ丘詩羽x：[B站专栏](https://www.bilibili.com/read/cv3610324)
+ > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
  > ② FlintyLemming：[QX Rewrite 规则订阅](https://git.flinty.moe/root/bh3-switch)
 
