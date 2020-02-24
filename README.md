@@ -15,7 +15,7 @@
  > 
  > 只使用 **URL 重定向（URL Rewrite）** 功能实现。
 
-#### ① Surge 4：
+#### ① Surge 4 / Loon
 ```
 [URL Rewrite]
 # 获取全平台服务器列表
@@ -43,7 +43,7 @@
 hostname = global*.bh3.com
 ```
 
-#### ② Quantumult X：
+#### ② Quantumult X
 ```
 [rewrite_remote]
 # 新手直接订阅使用，无需自行更动
@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region
  > 
  > 利用 **脚本（Script）** 与 **URL 重定向（URL Rewrite）** 功能共同实现。
 
-#### ① Surge 4：
+#### ① Surge 4 / Loon
 ```
 [URL Rewrite]
 # 改写连入服务器的客户端标识
@@ -84,7 +84,7 @@ http-response ^https:\/\/global(\d*)\.bh3\.com\/query_dispatch\?version=(\d*\.\d
 hostname = global*.bh3.com
 ```
 
-#### ② Quantumult X：
+#### ② Quantumult X
 ```
 [rewrite_remote]
 # 改写连入服务器的客户端标识
@@ -100,18 +100,29 @@ hostname = *.bh3.com
 
 ---
 
-## 附录：国服客户端标识
+## 附录1：App 商店链接
+- **游戏本体**
+  - [崩坏3](https://apps.apple.com/app/id1143402987)
+- **代理&抓包工具**
+  - [Surge 4](https://apps.apple.com/app/id1442620678)
+  - [Quantumult X](https://apps.apple.com/app/id1443988620)
+  - [Loon](https://apps.apple.com/app/id1373567447)
+- **抓包工具**
+  - [Thor HTTP](https://apps.apple.com/app/id1210562295)
+  - [HTTP Catcher](https://apps.apple.com/app/id1445874902)
+
+## 附录2：崩坏3国服客户端标识
  > 以下为分别连接不同的国服服务器时，有效的客户端标识。
 
-- 官服
+- **官服**
   - 安卓国服：`gf_android`，`gf_pc`
   - iOS国服：`gf_ios`，`gf_pc`
   - 全平台（桌面）服：`gf_pc`，`gf_android`，`gf_ios`
-- 渠道服（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
+- **渠道服**（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
   - Bilibili服：`gf_pc`，`gf_android_bilibili`
   - 应用宝服：`gf_pc`，`gf_android_tencent`
   - 渠道1服：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
   - 渠道2服：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
-- 测试服（需搭配测试专用客户端）
+- **测试服**（需搭配测试专用客户端）
   - 安卓测试服：`beta`
   - iOS测试服：`beta_ios`
