@@ -1,7 +1,7 @@
 /*
 「崩坏3 跨服」（iOS客户端 → 国服其他服务器）
 By: Mornwind
-Reference: FlintyLemming / 霞ヶ丘詩羽x
+Reference: 霞ヶ丘詩羽x / FlintyLemming
 
 README:
 https://github.com/Mornwind/BH3_Region_Selector/blob/master/README.md
