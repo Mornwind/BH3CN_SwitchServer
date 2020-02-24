@@ -4,7 +4,7 @@
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
- > ② FlintyLemming：[QX Rewrite 规则订阅](https://git.flinty.moe/root/bh3-switch)
+ > ② FlintyLemming：[QX规则订阅](https://git.flinty.moe/root/bh3-switch)（注：原项目已删除，并跟随本项目转移至 GitHub）
 
 ## 效果预览
 ![国服服务器列表预览](/bh3_region_list_preview.gif)
