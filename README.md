@@ -9,19 +9,6 @@
 ## 效果预览
 ![国服服务器列表预览](/bh3_region_list_preview.gif)
 
-## 国服客户端标识
- > 以下为分别连接不同的国服服务器时，有效的客户端标识。
-
-- 官服
-  - 安卓国服：`gf_android`，`gf_pc`
-  - iOS国服：`gf_ios`，`gf_pc`
-  - 全平台（桌面）服：`gf_pc`，`gf_android`，`gf_ios`
-- 渠道服（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
-  - Bilibili服：`gf_pc`，`gf_android_bilibili`
-  - 应用宝服：`gf_pc`，`gf_android_tencent`
-  - 渠道1服：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
-  - 渠道2服：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
-
 ## 配置信息
 ### ⑴ 新手使用（Basic）
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过渠道服入口暂被隐藏）。
@@ -110,3 +97,21 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region
 [MITM]
 hostname = *.bh3.com
 ```
+
+---
+
+## 附录：国服客户端标识
+ > 以下为分别连接不同的国服服务器时，有效的客户端标识。
+
+- 官服
+  - 安卓国服：`gf_android`，`gf_pc`
+  - iOS国服：`gf_ios`，`gf_pc`
+  - 全平台（桌面）服：`gf_pc`，`gf_android`，`gf_ios`
+- 渠道服（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
+  - Bilibili服：`gf_pc`，`gf_android_bilibili`
+  - 应用宝服：`gf_pc`，`gf_android_tencent`
+  - 渠道1服：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
+  - 渠道2服：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
+- 测试服（需搭配测试专用客户端）
+  - 安卓测试服：`beta`
+  - iOS测试服：`beta_ios`
