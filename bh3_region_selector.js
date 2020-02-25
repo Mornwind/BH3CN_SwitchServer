@@ -1,5 +1,5 @@
 /*
-「崩坏3 跨服」（iOS客户端 → 国服其他服务器）
+「崩坏3 跨服」（iOS客户端 → 官服服务器）
 By: Mornwind
 Reference: 霞ヶ丘詩羽x / FlintyLemming
 
@@ -32,7 +32,7 @@ if (url.indexOf(ios01) != -1) {
 if (url.indexOf(pc01) != -1) {
 	url = url.replace(/gf_.+?&/,"gf_pc&");
 };
-// > 渠道服（登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好）
+// > 渠道服（详见说明文档最前面的"注意事项"部分）
 // >> Bilibili服
 if (url.indexOf(bb01) != -1) {
 	url = url.replace(/gf_.+?&/,"gf_android_bilibili&");
