@@ -1,6 +1,13 @@
 # 「崩坏3 跨服」（iOS客户端 → 官服服务器）
  > By: [Mornwind](https://github.com/Mornwind/BH3_Region_Selector) 
 
+## 参考来源
+ > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
+ > 
+ > ② FlintyLemming：[QX规则订阅](https://git.flinty.moe/root/bh3-switch)（注：原项目已删除，现跟随本项目转移至 GitHub）
+
+---
+
 ## ⚠️ 注意事项 ⚠️
 1. 本文档内所提到的所有客户端与服务器，均限制为**国服**。
 2. 目前跨服只可在官服之间跨。渠道服由于**账号系统**不同以及游戏包体中的**登录器**不同，现阶段没有找到方法跨服，只能通过在PC端上扫码进行登录这种方式，敬请见谅。
@@ -8,11 +15,6 @@
 4. "进阶使用（脚本法）"中，跨服脚本中**并未含有**用于修改游戏内数据以获得不正当收益的作弊内容，只是用来切换服务器，故理论上不会被封号。跨服脚本代码**公开透明**地存放于本项目中，欢迎随时进行检查。如若不放心，还请使用"新手使用（重定向法）"，或者另寻他法。
 
 ---
-
-## 参考来源
- > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
- > 
- > ② FlintyLemming：[QX规则订阅](https://git.flinty.moe/root/bh3-switch)（注：原项目已删除，现跟随本项目转移至 GitHub）
 
 ## 效果预览
 ![国服服务器列表预览](/bh3_region_list_preview.gif)
