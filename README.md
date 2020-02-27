@@ -87,7 +87,7 @@ hostname = global*.bh3.com
 ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=.* url script-response-body bh3_region_list.js
 
 # 改写连入服务器的客户端标识
-^http:\/\/(.*)\/query_gameserver\?version=.* url script-request-body bh3_region_selector.js
+^http:\/\/(.*)\/query_gameserver\?version=.* url script-request-header bh3_region_selector.js
 
 [MITM]
 hostname = *.bh3.com
