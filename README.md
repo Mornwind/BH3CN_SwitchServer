@@ -70,11 +70,11 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region
 #### ① Surge 4 / Loon
 ```
 [Script]
-# 改写连入服务器的客户端标识
-http-request ^http:\/\/(.*)\/query_gameserver\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_selector.js
-
 # 自定义服务器列表
 http-response ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_list.js
+
+# 改写连入服务器的客户端标识
+http-request ^http:\/\/(.*)\/query_gameserver\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_selector.js
 
 [MITM]
 hostname = global*.bh3.com
@@ -83,11 +83,11 @@ hostname = global*.bh3.com
 #### ② Quantumult X
 ```
 [rewrite_local]
-# 改写连入服务器的客户端标识
-^http:\/\/(.*)\/query_gameserver\?version=.* url script-request-body bh3_region_selector.js
-
 # 自定义服务器列表
 ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=.* url script-response-body bh3_region_list.js
+
+# 改写连入服务器的客户端标识
+^http:\/\/(.*)\/query_gameserver\?version=.* url script-request-body bh3_region_selector.js
 
 [MITM]
 hostname = *.bh3.com
