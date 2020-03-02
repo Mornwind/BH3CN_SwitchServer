@@ -1,7 +1,7 @@
 # 「崩坏3」跨服配置（Shadowrocket）（iOS客户端 → 官服服务器）
  > By: [Mornwind](https://github.com/Mornwind)
  > 
- > GitHub Link: [BH3_Region_Selector](https://github.com/Mornwind/BH3_Region_Selector/Shadowrocket) 
+ > GitHub Link: [BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Shadowrocket) 
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
