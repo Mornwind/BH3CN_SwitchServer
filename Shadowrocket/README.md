@@ -38,18 +38,17 @@
 https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrocket/bh3_region_selector.conf
 ```
 
-4. 然后在“远程文件”中点击该 URL，选择“使用配置”；
+4. 然后在“远程文件”中点击该 URL，在弹出的列表中选择“使用配置”；
 5. 等待下载完毕后，即可看到“本地文件”中加载了本配置；
-6. 到系统中安装并信任 MitM 所需证书；
-7. 开启 Shadowrocket 的 VPN 开关，进入游戏；
-8. 不用时记得关闭 VPN 开关。
+6. 前往系统的“设置”→“通用”→“描述文件与设备管理”中安装 MitM 所需证书，并在系统的"设置"→"通用"→“关于本机”→“证书信任设置”中信任该证书；
+7. 打开 Shadowrocket 的 VPN 开关，然后进入游戏，即可实现跨服；
+8. 不玩游戏时，别忘了关闭 VPN 开关。
 
 ### 方法二：手动添加进当前配置
 ```
 [URL Rewrite]
 # 获取全平台服务器列表
 ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*) https://global$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 HEADER
-
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
