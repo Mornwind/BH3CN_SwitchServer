@@ -20,21 +20,16 @@
 ## 效果预览
 ![国服服务器列表预览](/bh3_region_list_preview.gif)
 
-## 跨服工具与配置
-### ⑴ Shadowrocket
-[Shadowrocket 配置文档](/Shadowrocket/README.md)
+## 跨服工具一览
 
-### ⑵ Surge 4 / Loon
-[Surge 4 / Loon 配置文档](/Surge_4/README.md)
-
-### ⑶ Quantumult X
-[Quantumult X 配置文档](/Quantumult_X/README.md)
-
-### ⑷ Thor HTTP
-略（见群内教程）
- 
-### ⑸ HTTP Catcher
-略（见群内教程）
+| 工具 | 跨服教程 | 跨服配置<br/>（重定向法） | 跨服配置<br/>（脚本法） |
+| :-: | :-: | :-: | :-: |
+| Shadowrocket | - | [Markdown 文档](/Shadowrocket/README.md) | - |
+| Surge 4 | [PDF 文档](/Surge_4/surge_4_guide.pdf) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
+| Quantumult X | - | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
+| Loon | - | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
+| Thor HTTP | 略（见群内教程） | 略（见群文件） | - |
+| HTTP Catcher | 略（见群内教程） | 略（见群文件） | - |
 
 ---
 
