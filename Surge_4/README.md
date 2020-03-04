@@ -53,7 +53,7 @@
 ^http:\/\/139\.196\.248\.219\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 
 [MITM]
-hostname = global*.bh3.com
+hostname = *.bh3.com
 ```
 
 ### 进阶方法——脚本法
@@ -70,5 +70,5 @@ http-response ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=.* requi
 http-request ^http:\/\/(.*)\/query_gameserver\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_selector.js
 
 [MITM]
-hostname = global*.bh3.com
+hostname = *.bh3.com
 ```
