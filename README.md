@@ -20,25 +20,39 @@
 ## 效果预览
 ![国服服务器列表预览](/bh3_region_list_preview.gif)
 
-## 跨服方式一览
+## iOS 端跨服方式一览
 
 | 跨服方式 | 跨服教程 | 跨服配置<br/>（重定向法） | 跨服配置<br/>（脚本法） |
 | :-: | :-: | :-: | :-: |
-| Shadowrocket | [PDF 文档](/Shadowrocket/Shadowrocket_Guide.pdf) | [Markdown 文档](/Shadowrocket/README.md) | - |
-| Surge 4 | [PDF 文档](/Surge_4/Surge_4_Guide.pdf) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
-| Quantumult X | - | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
-| Loon | - | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
-| Thor HTTP | 略（见跨服群内教程） | 略（见跨服群文件） | - |
-| HTTP Catcher | 略（见跨服群内教程） | 略（见跨服群文件） | - |
-| 跨服包 | 略（见 ME 社公众号） | 略（见 ME 社公众号） | - |
+| [Shadowrocket](https://apps.apple.com/app/id932747118) | [PDF 文档](/Shadowrocket/Shadowrocket_Guide.pdf) | [Markdown 文档](/Shadowrocket/README.md) | - |
+| [Surge 4](https://apps.apple.com/app/id1442620678) | [PDF 文档](/Surge_4/Surge_4_Guide.pdf) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
+| [Quantumult X](https://apps.apple.com/app/id1443988620) | - | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
+| [Loon](https://apps.apple.com/app/id1373567447) | - | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
+| [Thor HTTP](https://apps.apple.com/app/id1210562295) | 略（见跨服群<sup>[1]</sup>群公告） | 略（见跨服群群文件） | - |
+| [HTTP Catcher](https://apps.apple.com/app/id1445874902) | 略（见跨服群群公告） | 略（见跨服群群文件） | - |
+| 跨服包 | 略（见 ME 社公众号<sup>[2]</sup>） | - | - |
+
+注：
+
+[1] 崩坏3/少女前线跨服群：
+
+  - ①群：`915089623` （已满）
+  - ②群：`703492563`
+
+[2] ME 社公众号：
+
+  - 主：`me_shebao`
+  - 备：`me_dby`
 
 ---
 
 ## 附录1：App 商店链接
 - **游戏本体**
   - [崩坏3](https://apps.apple.com/app/id1143402987)
-- **代理&抓包工具**
+
+- **代理工具**
   - [Shadowrocket](https://apps.apple.com/app/id932747118)
+- **代理&抓包工具**
   - [Surge 4](https://apps.apple.com/app/id1442620678)
   - [Quantumult X](https://apps.apple.com/app/id1443988620)
   - [Loon](https://apps.apple.com/app/id1373567447)
