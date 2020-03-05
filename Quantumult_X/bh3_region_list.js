@@ -61,7 +61,7 @@ list = {
                 "update_streaming_asb": "1"
             }, 
             "name": "bb01", 
-            "retcode": 0, 
+            "retcode": 2, 
             "title": "BiliBili服"
         }, 
         {
@@ -74,7 +74,7 @@ list = {
                 "update_streaming_asb": "1"
             }, 
             "name": "yyb01", 
-            "retcode": 0, 
+            "retcode": 2, 
             "title": "应用宝服"
         }, 
         {
@@ -87,7 +87,7 @@ list = {
                 "update_streaming_asb": "1"
             }, 
             "name": "hun01", 
-            "retcode": 0, 
+            "retcode": 2, 
             "title": "混服01"
         }, 
         {
@@ -100,7 +100,7 @@ list = {
                 "update_streaming_asb": "1"
             }, 
             "name": "hun02", 
-            "retcode": 0, 
+            "retcode": 2, 
             "title": "混服02"
         }
     ], 
