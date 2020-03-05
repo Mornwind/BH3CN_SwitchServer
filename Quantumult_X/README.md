@@ -6,7 +6,7 @@
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
- > ② FlintyLemming：[QX规则订阅](https://git.flinty.moe/root/bh3-switch)（注：服务器维护中，暂无法访问）
+ > ② FlintyLemming：[QX规则订阅](https://git.flinty.moe/root/BH3_Region_Selector)
 
 ---
 
