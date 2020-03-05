@@ -32,7 +32,7 @@
 ```
 [rewrite_remote]
 # 新手直接订阅使用，无需自行更动
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_rewrite.conf, tag=BH3 Region Rewrite, enabled=true
+https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_rewrite.conf, tag=BH3 Region Rewrite, enabled=true
 ```
 
 ### 进阶方法——脚本法
