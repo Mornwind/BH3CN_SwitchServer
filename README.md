@@ -88,5 +88,6 @@
   - iOS测试服：`beta_ios`
 
 ## 附录3：崩坏3服务器状态标识
-- **推荐**：`"server_state": "Recommend"`
-- **隐藏**：`"server_state": "HIDE"`
+- **推荐**：`"retcode": 0`、`"server_state": "Recommend"`
+- **隐藏**：`"retcode": 0`、`"server_state": "HIDE"`
+- **维护**：`"retcode": 2`
