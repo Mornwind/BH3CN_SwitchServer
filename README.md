@@ -28,20 +28,20 @@
 | [Surge 4](https://apps.apple.com/app/id1442620678) | [PDF 文档](/Surge_4/Surge_4_Guide.pdf) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
 | [Quantumult X](https://apps.apple.com/app/id1443988620) | - | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
 | [Loon](https://apps.apple.com/app/id1373567447) | - | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
-| [Thor HTTP](https://apps.apple.com/app/id1210562295) | 略（见跨服群<sup>[1]</sup>群公告） | 略（见跨服群群文件） | - |
-| [HTTP Catcher](https://apps.apple.com/app/id1445874902) | 略（见跨服群群公告） | 略（见跨服群群文件） | - |
-| 跨服包 | 略（见 ME 社公众号<sup>[2]</sup>） | - | - |
+| [Thor](https://apps.apple.com/app/id1210562295) | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
+| [HTTP Catcher](https://apps.apple.com/app/id1445874902) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件](/HTTP_Catcher/bh3_region_selector_v3.8.0.hcc) | - |
+| 跨服包 | 略（见 ME 社公众号） | - | - |
 
-| 跨服方式 | 正规渠道价格<br/>接受度 | 入门容易度 | 首次跨服操作<br/>方便度 | 可自定义程度 | APP 同时<br/>挂梯与跨服 |
+| 跨服方式 | 正规渠道价格<br/>接受程度 | App 入门<br/>容易程度 | 首次跨服操作<br/>方便程度 | 可自定义<br/>服务器列表 | 设备上同时<br/>挂梯与跨服 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| Shadowrocket | ★★★ | ★★★★ | ★★ | ★★ | ✅ |
-| Surge 4 | ☆ | ★ | ★ | ★★★★★ | ✅ |
-| Quantumult X | ★ | ★ | ★ | ★★★★★ | ✅ |
-| Loon | ★★★ | ★ | ★ | ★★★★★ | ✅ |
-| Thor HTTP | ★ | ★★ | ★★★★ | ★★ | ❌ |
-| HTTP Catcher | ★★★ | ★★★ | ★★★ | ★★★ | ❌ |
-| 跨服包<br/>（自签） | ★★★★★ | ★★★ | ★★ | ☆ | - |
-| 跨服包<br/>（免签） | ★★★ | ★★★★★ | ★★★★★ | ☆ | - |
+| Shadowrocket | ★★★ | ★★★★ | ★★ | ❌ | ✅ |
+| Surge 4 | ☆ | ★ | ★ | ✅ | ✅ |
+| Quantumult X | ★ | ★ | ★ | ✅ | ✅ |
+| Loon | ★★★ | ★ | ★ | ✅ | ✅ |
+| Thor HTTP | ★ | ★★ | ★★★★ | ✅ | ❌ |
+| HTTP Catcher | ★★★ | ★★★ | ★★★★ | ✅ | ❌ |
+| 跨服包<br/>（自签） | ★★★★★ | ★★★ | ★★ | ❌ | ✅ |
+| 跨服包<br/>（免签） | ★★★ | ★★★★★ | ★★★★★ | ❌ | ✅ |
 
 注：
 
