@@ -29,7 +29,7 @@
 | [Quantumult X](https://apps.apple.com/app/id1443988620) | - | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
 | [Loon](https://apps.apple.com/app/id1373567447) | - | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
 | [Thor](https://apps.apple.com/app/id1210562295) | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
-| [HTTP Catcher](https://apps.apple.com/app/id1445874902) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件](/HTTP_Catcher/bh3_region_selector_v3.8.0.hcc) | - |
+| [HTTP Catcher](https://apps.apple.com/app/id1445874902) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件 v3.8.0](/HTTP_Catcher/bh3_region_selector_v3.8.0.hcc) | - |
 | 跨服包 | 略（见 ME 社公众号） | - | - |
 
 | 跨服方式 | 正规渠道价格<br/>接受程度 | App 入门<br/>容易程度 | 首次跨服操作<br/>方便程度 | 可自定义<br/>服务器列表 | 设备上同时<br/>挂梯与跨服 |
@@ -61,9 +61,8 @@
 - **游戏本体**
   - [崩坏3](https://apps.apple.com/app/id1143402987)
 
-- **代理工具**
-  - [Shadowrocket](https://apps.apple.com/app/id932747118)
 - **代理&抓包工具**
+  - [Shadowrocket](https://apps.apple.com/app/id932747118)
   - [Surge 4](https://apps.apple.com/app/id1442620678)
   - [Quantumult X](https://apps.apple.com/app/id1443988620)
   - [Loon](https://apps.apple.com/app/id1373567447)
