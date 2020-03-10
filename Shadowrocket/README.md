@@ -1,5 +1,5 @@
 # 「崩坏3」跨服配置（Shadowrocket）（iOS客户端 → 官服服务器）
- > By: [Mornwind](https://github.com/Mornwind)
+ > By: [Mornwind](https://blog.mornwind.cc)
  > 
  > GitHub Link: [BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Shadowrocket) 
 
@@ -30,14 +30,14 @@
  > 仅使用 **URL 重定向（URL Rewrite）** 功能实现。
 
 ### 方法一：直接订阅简易跨服配置
- > 适合从未使用过的用户，或是曾用过但目前没有上外网需求的用户。
+ > 适合于：从未使用过 Shadowrocket 的新用户；曾用过 Shadowrocket 但目前没有上外网需求的老用户；折腾不来或不爱折腾的新、老用户。
 
 ```
 https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrocket/bh3_region_selector.conf
 ```
 
-### 方法二：手动添加进当前配置
- > 适合目前仍有上外网需求的用户。
+### 方法二：手动写入当前使用中配置
+ > 适合于：目前仍在使用 Shadowrocket 上外网的老用户；爱折腾的新、老用户。
 
 ```
 [URL Rewrite]

@@ -1,5 +1,5 @@
 # 「崩坏3」跨服配置（Quantumult X）（iOS客户端 → 官服服务器）
- > By: [Mornwind](https://github.com/Mornwind)
+ > By: [Mornwind](https://blog.mornwind.cc)
  > 
  > GitHub Link: [BH3_Region_Selector/Quantumult_X](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Quantumult_X) 
 
