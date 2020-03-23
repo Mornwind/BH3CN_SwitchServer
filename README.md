@@ -24,13 +24,13 @@
 
 | 跨服方式 | 跨服教程 | 跨服配置<br/>（重定向法） | 跨服配置<br/>（脚本法） |
 | :-: | :-: | :-: | :-: |
-| [HTTP Catcher](https://apps.apple.com/app/id1445874902) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件 v3.8.0](/HTTP_Catcher/bh3_region_selector_v3.8.0.hcc) | - |
-| [Thor](https://apps.apple.com/app/id1210562295) | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
-| [Shadowrocket](https://apps.apple.com/app/id932747118) | [PDF 文档](/Shadowrocket/Shadowrocket_Guide.pdf) | [Markdown 文档](/Shadowrocket/README.md) | - |
-| [Pepi](https://apps.apple.com/app/id1283082051) | - | [Markdown 文档](/Pepi/README.md) | - |
-| [Quantumult X](https://apps.apple.com/app/id1443988620) | [FlintyLemming](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
-| [Surge 4](https://apps.apple.com/app/id1442620678) | [PDF 文档](/Surge_4/Surge_4_Guide.pdf) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
-| [Loon](https://apps.apple.com/app/id1373567447) | - | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
+| [HTTP Catcher](/HTTP_Catcher) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件 v3.8.0](/HTTP_Catcher/bh3_region_selector_v3.8.0.hcc) | - |
+| [Thor](/Thor) | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
+| [Shadowrocket](/Shadowrocket) | [Markdown 文档](/Shadowrocket/README.md) | [Markdown 文档](/Shadowrocket/README.md) | - |
+| [Pepi](/Pepi) | [Markdown 文档](/Pepi/README.md) | [Markdown 文档](/Pepi/README.md) | - |
+| [Quantumult X](/Quantumult_X) | [FlintyLemming](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
+| [Surge 4](/Surge_4) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
+| [Loon]() | 参考 Surge 4 | 参考 Surge 4 | 参考 Surge 4 |
 | ME 社跨服包 | 见 ME 社公众号 | - | - |
 
 | 跨服方式 | 国区商店<br/>购买与下载 | 正规渠道价格<br/>接受程度 | App 入门<br/>容易程度 | 首次跨服操作<br/>方便程度 | 可自定义<br/>服务器列表 | 设备上同时<br/>挂梯与跨服 |
