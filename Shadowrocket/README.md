@@ -1,4 +1,4 @@
-# 「崩坏3」跨服配置（Shadowrocket）（iOS客户端 → 官服服务器）
+# 「崩坏3」跨服教程（Shadowrocket）（iOS客户端 → 官服服务器）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
  > GitHub Link: [BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Shadowrocket) 
@@ -24,7 +24,17 @@
 ## 效果预览
 ![使用 Shadowrocket 跨服](/Shadowrocket/shadowrocket_preview.jpg)
 
-## 配置信息（重定向法）
+---
+
+## 前期准备
+账号：安卓国服
+系统：iOS 12+ / iPadOS 13+
+工具：[Shadowrocket](https://apps.apple.com/app/id932747118) 
+
+GitHub 项目链接：（可点击跳转）
+[Mornwind/BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/Shadowrocket)
+
+## 配置方法（重定向法）
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
  > 
  > 仅使用 **URL 重定向（URL Rewrite）** 功能实现。
@@ -32,12 +42,24 @@
 ### 方法一：直接订阅简易跨服配置
  > 适合于：从未使用过 Shadowrocket 的新用户；曾用过 Shadowrocket 但目前没有上外网需求的老用户；折腾不来或不爱折腾的新、老用户。
 
+1. **新建本机节点**：在首页，点击右上角"+"，添加一个类型为"HTTP"（或"HTTPS"）、地址为"localhost"（或"127.0.0.1"）、端口为"1080"（或其他在 1-65535 之间的端口）的节点，然后在首页的"服务器节点"中选中该节点；
+2. **设置路由模式**：将"全局路由"设置为"直连"；
+3. **设置远程订阅 URL**：在"配置文件"页面，点击右上角"+"，输入下面的远程订阅 URL，点击下载；
+
 ```
 https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrocket/bh3_region_selector.conf
 ```
 
+4. **下载并应用简易跨服配置**：在"远程文件"中点击该 URL，选择"使用配置"，等待下载完毕后，即可看到"本地文件"中加载了本配置；
+5. **配置 MitM 证书**：从"本地文件"中找到当前正在使用的配置，点击它，在弹出的列表中选择"编辑配置"，进入"HTTPS 解密"，点击"证书授权"部分的"密码"右侧的小圈 i，点击"安装证书"，前往系统的"设置"→"通用"→"描述文件与设备管理"中安装 MitM 所需证书，并在系统的"设置"→"通用"→"关于本机"→"证书信任设置"中信任该证书；
+6. **启动 Shadowrocket**：打开 Shadowrocket 的 VPN 开关，然后在清除了游戏后台的情况下进入游戏，即可实现跨服；
+7. **停止 Shadowrocket**：不玩游戏时，别忘了关闭 VPN 开关。
+
 ### 方法二：手动写入当前使用中配置
  > 适合于：目前仍在使用 Shadowrocket 上外网的老用户；爱折腾的新、老用户。
+
+1. **进入配置编辑界面**：在"配置文件"页面，从"本地文件"中找到当前正在使用的配置，点击它，在弹出的列表中选择"编辑纯文本"；
+2. **添加跨服配置**：在弹出的编辑窗口中，将以下配置按对应位置复制进你的配置文件中，然后点击右上角的保存；
 
 ```
 [URL Rewrite]
@@ -55,3 +77,9 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrock
 [MITM]
 hostname = *.bh3.com
 ```
+
+3. **启用 HTTPS 解密**：从"本地文件"中找到当前正在使用的配置，点击它，在弹出的列表中选择"编辑配置"，进入"HTTPS 解密"，打开最上面"HTTPS 解密"的开关；
+4. **配置 MitM 证书**：
+   - 若已配置过 MitM 证书，直接跳过该步；
+   - 若未配置过 MitM 证书，则在"HTTPS 解密"的"证书授权"部分，点击"密码"右侧的小圈 i，点击"生成新的 CA 证书"，成功生成证书后，再点击"安装证书"，前往系统的"设置"→"通用"→"描述文件与设备管理"中安装该证书，并在系统的"设置"→"通用"→"关于本机"→"证书信任设置"中信任该证书；保存"HTTPS 解密"设置，然后返回主页；
+5. **重启 Shadowrocket**：为确保修改生效，可以开关一次 VPN 开关，然后在清除了游戏后台的情况下进入游戏，即可实现跨服。
