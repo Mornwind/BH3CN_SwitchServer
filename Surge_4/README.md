@@ -1,4 +1,4 @@
-# 「崩坏3」跨服配置（Surge 4 / Loon）（iOS客户端 → 官服服务器）
+# 「崩坏3」跨服教程（Surge 4）（iOS客户端 → 官服服务器）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
  > GitHub Link: [BH3_Region_Selector/Surge_4](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Surge_4) 
@@ -23,17 +23,30 @@
 ## 效果预览
 ![使用 Surge 4 跨服](/Surge_4/surge_4_preview.jpg)
 
-## 配置信息
+---
+
+## 前期准备
+账号：安卓国服
+系统：iOS 12+ / iPadOS 13+
+工具：[Surge 4](https://apps.apple.com/app/id1442620678) （注：[Loon](https://apps.apple.com/app/id1373567447) 的方法大同小异）
+
+GitHub 项目链接：（可点击跳转）
+[Mornwind/BH3_Region_Selector/Surge_4](https://github.com/Mornwind/BH3_Region_Selector/Surge_4)
+
+## 跨服方法
 ### 入门方法——重定向法
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
  > 
  > 仅使用 **URL 重定向（URL Rewrite）** 功能实现。
 
+1. **配置 MitM 证书并启用 MitM 功能**：在 App 内“首页”中找到“MitM”卡片（若没有，去“更多”→“外观”→“卡片”中，将“MitM”设为可见），点击“配置根证书”，在弹出的“HTTPS 解密”窗口中，点击“生成新的 CA 证书”，成功生成证书后，再点击“安装证书”，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装 MitM 所需证书，并在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书。
+2. **进入配置编辑界面**：点击“首页”左上角配置名，在弹出的“配置列表”窗口中，点击“在文本模式中编辑”（或是使用任一款编辑器打开你的 Surge 配置文件（.conf）直接进行编辑）。
+3. **添加跨服配置**：在配置文件中，将以下配置代码分为 `[URL Rewrite]`、`[MITM]` 两个部分，分别拷贝到配置文件的对应区域中，然后点击右上角“完成”保存修改。
+
 ```
 [URL Rewrite]
 # 获取全平台服务器列表
 ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*) https://global$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 header
-
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
@@ -56,22 +69,32 @@
 hostname = *.bh3.com
 ```
 
+4. **启用“Rewrite”和“MitM”功能**：回到“首页”中，将“Rewrite”和“MitM”两个卡片的开关打开。
+5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
+6. **启动 Surge 4**：点击“首页”右上角“启动”按钮启动 Surge 4，即可在 iOS 端跨服登录安卓国服。
+
 ### 进阶方法——脚本法
  > 自定义服务器列表，可调整顺序、删去多余服务器。
  > 
  > 仅使用 **脚本（Script）** 功能实现。
 
+1. **配置 MitM 证书**：在“首页”中找到“MitM”卡片（若没有，去“更多”→“外观”→“卡片”中，将“MitM”设为可见），点击“配置根证书”，在弹出的“HTTPS 解密”窗口中，点击“生成新的 CA 证书”，成功生成证书后，再点击“安装证书”，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装 MitM 所需证书，并在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书。
+2. **进入配置编辑界面**：点击“首页”左上角配置名，在弹出的“配置列表”窗口中，点击“在文本模式中编辑”（或是使用任一款编辑器打开你的 Surge 配置文件（.conf）直接进行编辑）。
+3. **添加跨服配置**：在配置文件中，将以下配置代码分为 `[Script]`、`[MITM]` 两个部分，分别拷贝到配置文件的对应区域中，然后点击右上角“完成”保存修改。
+
 ```
 [Script]
 # 自定义服务器列表
 http-response ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_list.js
-
 # 改写连入服务器的客户端标识
 http-request ^http:\/\/(.*)\/query_gameserver\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
-
 # 确保每个版本首次进入服务器时，提示下载资源（暂未成功）
 # http-response ^http:\/\/(.*)\/query_gameserver\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_resource_update.js
 
 [MITM]
 hostname = *.bh3.com
 ```
+
+4. **启用“脚本”和“MitM”功能**：回到“首页”中，将“脚本”和“MitM”两个卡片的开关打开。
+5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
+6. **启动 Surge 4**：点击“首页”右上角“启动”按钮启动 Surge 4，即可在 iOS 端跨服登录安卓国服。
