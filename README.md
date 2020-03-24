@@ -30,7 +30,7 @@
 | [Pepi](/Pepi) | [Markdown 文档](/Pepi/README.md) | [Markdown 文档](/Pepi/README.md) | - |
 | [Quantumult X](/Quantumult_X) | [FlintyLemming](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
 | [Surge 4](/Surge_4) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
-| [Loon]() | 参考 Surge 4 | 参考 Surge 4 | 参考 Surge 4 |
+| [Loon](/Loon) | 参考 Surge 4 | 参考 Surge 4 | 参考 Surge 4 |
 | ME 社跨服包 | 见 ME 社公众号 | - | - |
 
 | 跨服方式 | 国区商店<br/>购买与下载 | 正规渠道价格<br/>接受程度 | App 入门<br/>容易程度 | 首次跨服操作<br/>方便程度 | 可自定义<br/>服务器列表 | 设备上同时<br/>挂梯与跨服 |

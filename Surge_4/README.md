@@ -26,15 +26,13 @@
 ---
 
 ## 前期准备
-账号：安卓国服
-系统：iOS 12+ / iPadOS 13+
-工具：[Surge 4](https://apps.apple.com/app/id1442620678) （注：[Loon](https://apps.apple.com/app/id1373567447) 的方法大同小异）
-
-GitHub 项目链接：（可点击跳转）
-[Mornwind/BH3_Region_Selector/Surge_4](https://github.com/Mornwind/BH3_Region_Selector/Surge_4)
+- 账号：安卓国服
+- 系统：iOS 12+ / iPadOS 13+
+- 工具：[Surge 4](https://apps.apple.com/app/id1442620678) （注：[Loon](https://apps.apple.com/app/id1373567447) 的方法大同小异）
+- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Surge_4](https://github.com/Mornwind/BH3_Region_Selector/Surge_4)
 
 ## 跨服方法
-### 入门方法——重定向法
+### 方法一：入门方法——重定向法
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
  > 
  > 仅使用 **URL 重定向（URL Rewrite）** 功能实现。
@@ -73,7 +71,7 @@ hostname = *.bh3.com
 5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
 6. **启动 Surge 4**：点击“首页”右上角“启动”按钮启动 Surge 4，即可在 iOS 端跨服登录安卓国服。
 
-### 进阶方法——脚本法
+### 方法二：进阶方法——脚本法
  > 自定义服务器列表，可调整顺序、删去多余服务器。
  > 
  > 仅使用 **脚本（Script）** 功能实现。

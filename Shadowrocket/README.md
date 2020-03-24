@@ -27,12 +27,10 @@
 ---
 
 ## 前期准备
-账号：安卓国服
-系统：iOS 12+ / iPadOS 13+
-工具：[Shadowrocket](https://apps.apple.com/app/id932747118) 
-
-GitHub 项目链接：（可点击跳转）
-[Mornwind/BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/Shadowrocket)
+- 账号：安卓国服
+- 系统：iOS 12+ / iPadOS 13+
+- 工具：[Shadowrocket](https://apps.apple.com/app/id932747118) 
+- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/Shadowrocket)
 
 ## 配置方法（重定向法）
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
