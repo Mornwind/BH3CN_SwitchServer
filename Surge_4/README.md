@@ -29,7 +29,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[Surge 4](https://apps.apple.com/app/id1442620678) （注：[Loon](https://apps.apple.com/app/id1373567447) 的方法大同小异）
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Surge_4](https://github.com/Mornwind/BH3_Region_Selector/Surge_4)
+- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Surge_4](/Surge_4)
 
 ## 跨服方法
 ### 方法一：入门方法——重定向法

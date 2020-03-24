@@ -25,6 +25,12 @@
 
 ---
 
+## 前期准备
+- 账号：安卓国服
+- 系统：iOS 12+ / iPadOS 13+
+- 工具：[Pepi](https://apps.apple.com/app/id1283082051) 
+- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Pepi](/Pepi)
+
 ## 配置信息（重定向法）
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
  > 
