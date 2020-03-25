@@ -41,6 +41,7 @@
 | [Thor](/Thor) | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
 | [Shadowrocket](/Shadowrocket) | [Markdown 文档](/Shadowrocket/README.md) | [Markdown 文档](/Shadowrocket/README.md) | - |
 | [Pepi](/Pepi) | [Markdown 文档](/Pepi/README.md) | [Markdown 文档](/Pepi/README.md) | - |
+| [Quantumult](/Quantumult) | [Markdown 文档](/Quantumult/README.md) | [Markdown 文档](/Quantumult/README.md) | - |
 | [Quantumult X](/Quantumult_X) | [FlintyLemming](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
 | [Surge 4](/Surge_4) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
 | [Loon](/Loon) | 参考 Surge 4 | 参考 Surge 4 | 参考 Surge 4 |
@@ -50,8 +51,9 @@
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | HTTP Catcher | ✅ | ★★★ | ★★★ | ★★★★ | ✅ | ❌ |
 | Thor | ✅ | ★ | ★★ | ★★★★ | ✅ | ❌ |
-| Shadowrocket | ❌ | ★★★ | ★★★★ | ★★ | ❌ | ✅ |
-| Pepi | ❌ | ★★★★ | ★★ | ★★ | ❌ | ✅ |
+| Shadowrocket | ❌ | ★★★ | ★★★★ | ★★★ | ❌ | ✅ |
+| Pepi | ❌ | ★★★★ | ★★ | ★ | ❌ | ✅ |
+| Quantumult | ❌ | ★★ | ★★ | ★ | ❌ | ✅ |
 | Quantumult X | ❌ | ★ | ★ | ★ | ✅ | ✅ |
 | Surge 4 | ❌ | ☆ | ★ | ★ | ✅ | ✅ |
 | Loon | ❌ | ★★★ | ★ | ★ | ✅ | ✅ |
@@ -74,11 +76,12 @@
   - [崩坏3](https://apps.apple.com/app/id1143402987)
 
 - **抓包工具**
-  - [Thor HTTP](https://apps.apple.com/app/id1210562295)
   - [HTTP Catcher](https://apps.apple.com/app/id1445874902)
+  - [Thor](https://apps.apple.com/app/id1210562295)
 - **代理&抓包工具**
   - [Shadowrocket](https://apps.apple.com/app/id932747118)
   - [Pepi](https://apps.apple.com/app/id1283082051)
+  - [Quantumult](https://apps.apple.com/app/id1252015438)
   - [Quantumult X](https://apps.apple.com/app/id1443988620)
   - [Surge 4](https://apps.apple.com/app/id1442620678)
   - [Loon](https://apps.apple.com/app/id1373567447)
