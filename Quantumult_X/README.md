@@ -23,6 +23,9 @@
 ## 效果预览
 ![使用 Quantumult X 跨服](/Quantumult_X/quantumult_x_preview.jpg)
 
+## 配置教程
+详见 FlintyLemming 的 [Quantumult X 跨服教程](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md)。
+
 ## 配置信息
 ### 入门方法——重定向法
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
