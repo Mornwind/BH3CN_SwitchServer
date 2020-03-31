@@ -6,7 +6,7 @@
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
- > ② FlintyLemming：[QX规则订阅](https://git.flinty.moe/root/BH3_Region_Selector)
+ > ② FlintyLemming：[QuanX跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
 
 ## 前言
 作为一个晚登录两三天没能拿到“登录纪念勋章”的安卓国服的甲板老清洁工，自从嫌弃安卓机的卡慢（以及当年月光的光翼特效显示不出来），咬咬牙入了 iPod 和 iPad 之后，便开始发愁：安卓端甲板上的老婆们，要怎么打包带到 iOS 端？
@@ -49,7 +49,7 @@
 
 | 跨服方式 | 国区商店<br/>购买与下载 | 正规渠道价格<br/>接受程度 | App 入门<br/>容易程度 | 首次跨服操作<br/>方便程度 | 可自定义<br/>服务器列表 | 设备上同时<br/>挂梯与跨服 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| HTTP Catcher | ✅ | ★★★ | ★★★ | ★★★★ | ✅ | ❌ |
+| HTTP Catcher | ✅ | ★★ | ★★★ | ★★★★ | ✅ | ❌ |
 | Thor | ✅ | ★ | ★★ | ★★★★ | ✅ | ❌ |
 | Shadowrocket | ❌ | ★★★ | ★★★★ | ★★★ | ❌ | ✅ |
 | Pepi | ❌ | ★★★★ | ★★ | ★ | ❌ | ✅ |

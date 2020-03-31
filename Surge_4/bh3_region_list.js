@@ -1,5 +1,5 @@
 /*
-「崩坏3」跨服（iOS客户端 → 官服服务器）
+「崩坏3」跨服（iOS 端 → 官服服务器）
 By: Mornwind
 Reference: 霞ヶ丘詩羽x / FlintyLemming
 
