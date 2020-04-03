@@ -47,13 +47,13 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult
 ```
 [rewrite_local]
 # 自定义服务器列表
-^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=.* url script-response-body bh3_region_list.js
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-response-body bh3_region_list.js
 
 # 改写连入服务器的客户端标识
-^http:\/\/(.*)\/query_gameserver\?version=.* url script-request-header bh3_vid_rewrite.js
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3_vid_rewrite.js
 
 # 确保每个版本首次进入服务器时，提示下载资源
-^http:\/\/(.*)\/query_gameserver\?version=.* url script-response-body bh3_resource_update.js
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-response-body bh3_resource_update.js
 
 [MITM]
 hostname = *.bh3.com

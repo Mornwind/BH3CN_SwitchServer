@@ -64,15 +64,15 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrock
 ```
 [URL Rewrite]
 # 获取全平台服务器列表
-^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*) https://global$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 HEADER
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 HEADER
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
-^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://106.14.51.73/query_gameserver?version=$1_gf_android&t=$3&uid=$4 HEADER
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_android&t=$3&uid=$4 HEADER
 # >> iOS国服
-^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.224.7.27/query_gameserver?version=$1_gf_ios&t=$3&uid=$4 HEADER
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_ios&t=$3&uid=$4 HEADER
 # >> 全平台（桌面）服
-^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
+^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
 
 [MITM]
 hostname = *.bh3.com

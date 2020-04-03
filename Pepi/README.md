@@ -63,15 +63,15 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Pepi/bh3_r
 ```
 [URL REWRITE]
 # 获取全平台服务器列表
-^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(.*) https://global$1.bh3.com/query_dispatch?version=$2_gf_pc HEADER
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc HEADER
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
-^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*) http://106.14.51.73/query_gameserver?version=$1_gf_android HEADER
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_android HEADER
 # >> iOS国服
-^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*) http://139.224.7.27/query_gameserver?version=$1_gf_ios HEADER
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_ios HEADER
 # >> 全平台（桌面）服
-^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*) http://106.15.162.73/query_gameserver?version=$1_gf_pc HEADER
+^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc HEADER
 ```
 
 4. **安装 MitM 证书**：回到首页，点击主页左上角三横线“☰”，进入“设置”→“HTTPS”页面，点击“证书”中的“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。

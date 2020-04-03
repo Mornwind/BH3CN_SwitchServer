@@ -46,24 +46,24 @@
 ```
 [URL Rewrite]
 # 获取全平台服务器列表
-^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*) https://global$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 header
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 header
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
-^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://106.14.51.73/query_gameserver?version=$1_gf_android&t=$3&uid=$4 header
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_android&t=$3&uid=$4 header
 # >> iOS国服
-^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.224.7.27/query_gameserver?version=$1_gf_ios&t=$3&uid=$4 header
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_ios&t=$3&uid=$4 header
 # >> 全平台（桌面）服
-^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 # > 渠道服（详见说明文档最前面的“注意事项”部分）
 # >> Bilibili服
-^http:\/\/139\.196\.248\.220\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+^http:\/\/139\.196\.248\.220\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.196.248.220/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 # >> 应用宝服
-^http:\/\/115\.159\.20\.29\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://115.159.20.29/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+^http:\/\/115\.159\.20\.29\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://115.159.20.29/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 # >> 渠道1服
-^http:\/\/139\.196\.248\.218\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+^http:\/\/139\.196\.248\.218\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.196.248.220/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 # >> 渠道2服
-^http:\/\/139\.196\.248\.219\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(.*)&t=(\d*)&uid=(\d*) http://139.196.248.220/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+^http:\/\/139\.196\.248\.219\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.196.248.220/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 
 [MITM]
 hostname = *.bh3.com
@@ -86,11 +86,11 @@ hostname = *.bh3.com
 ```
 [Script]
 # 自定义服务器列表
-http-response ^https:\/\/global(.+?)\.bh3\.com\/query_dispatch\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_list.js
+http-response ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_list.js
 # 改写连入服务器的客户端标识
-http-request ^http:\/\/(.*)\/query_gameserver\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
+http-request ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
 # 确保每个版本首次进入服务器时，提示下载资源（暂未成功）
-# http-response ^http:\/\/(.*)\/query_gameserver\?version=.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_resource_update.js
+# http-response ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_resource_update.js
 
 [MITM]
 hostname = *.bh3.com
