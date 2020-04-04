@@ -1,12 +1,12 @@
 # 「崩坏3」跨服配置（Quantumult X）（iOS 端 → 官服服务器）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/Quantumult_X](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Quantumult_X) 
+ > GitHub Link: [BH3_Region_Selector/Quantumult_X](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Quantumult_X)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
- > ② FlintyLemming：[QuanX跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
+ > ② FlintyLemming：[QuanX 跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
 
 ---
 

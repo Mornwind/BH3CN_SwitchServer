@@ -1,15 +1,15 @@
 # 「崩坏3」跨服方式一览（iOS 端 → 官服服务器）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector](https://github.com/Mornwind/BH3_Region_Selector) 
+ > GitHub Link: [BH3_Region_Selector](https://github.com/Mornwind/BH3_Region_Selector)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
- > ② FlintyLemming：[QuanX跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
+ > ② FlintyLemming：[QuanX 跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
 
 ## 前言
-作为一个晚登录两三天没能拿到“登录纪念勋章”的安卓国服的甲板老清洁工，自从嫌弃安卓机的卡慢（以及当年月光的光翼特效显示不出来），咬咬牙入了 iPod 和 iPad 之后，便开始发愁：安卓端甲板上的老婆们，要怎么打包带到 iOS 端？
+作为一个晚登录两三天没能拿到“登录纪念勋章”的安卓国服的甲板老清洁工，自从嫌弃安卓机的卡慢（以及当年月光的光翼特效显示不出来），咬咬牙入了 iPod touch 和 iPad Pro 之后，便开始发愁：安卓端甲板上的老婆们，要怎么打包带到 iOS 端？
 
 奈何，米忽悠一直不为 iOS 客户端加上安卓国服的登录入口（反过来也没有）。后来 ME 社跨服包的出现，为我带来了一线光明。找“Msk包子”大佬购入了无需自签的 iOS 端跨服客户端以后，连续用了好几个版本，省去了每周重新自签的麻烦，倒也还算舒服（只不过得每隔三四个版本付一次分发平台的证书费）。
 
