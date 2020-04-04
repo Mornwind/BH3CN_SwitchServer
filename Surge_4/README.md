@@ -88,7 +88,7 @@ hostname = *.bh3.com
 # 自定义服务器列表
 http-response ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_list.js
 # 改写连入服务器的客户端标识
-http-request ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
+http-request ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
 # 确保每个版本首次进入服务器时，提示下载资源（暂未成功）
 # http-response ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_resource_update.js
 
