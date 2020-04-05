@@ -19,7 +19,7 @@
 
 ## ⚠️ 特别说明 ⚠️
 1. “进阶方法——脚本法”中，跨服脚本中**并未含有**用于修改游戏内数据以获得不正当收益的作弊内容，只是用来切换服务器，故理论上不会被封号。跨服脚本代码**公开透明**地存放于本项目中，欢迎随时进行检查。如若不放心，还请使用“入门方法——重定向法”，或者另寻他法。
-2. **若使用的是“入门方法——重定向法”，则每个版本更新或资源更新后，需先进 iOS 国服下载资源。**
+2. **若出现资源缺失，需先进 iOS 国服下载资源。**
 
 ---
 
@@ -52,9 +52,9 @@
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
-^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_android&t=$3&uid=$4 header
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 # >> iOS国服
-^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_ios&t=$3&uid=$4 header
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 # >> 全平台（桌面）服
 ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
 # > 渠道服（详见说明文档最前面的“注意事项”部分）
@@ -91,14 +91,11 @@ hostname = *.bh3.com
 http-response ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_list.js
 # 改写连入服务器的客户端标识
 http-request ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
-# 确保每个版本首次进入服务器时，提示下载资源
-http-response ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_resource_update.js
 
 [MITM]
 hostname = *.bh3.com
 ```
 
 5. **启用“脚本”和“MitM”功能**：回到“首页”中，将“脚本”和“MitM”两个卡片的开关打开。
-6. **启用“Network framework”功能**：点击“首页”最底端的“高级设置”，找到“实验性功能”→“使用 Network framework”，打开开关，然后点击右上角的“完成”保存设置。（之后若弹出的有关“Network framework”的“警告”弹窗，可选择“不再提示”）
-7. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
-8. **启动 Surge 4**：点击“首页”右上角“启动”按钮启动 Surge 4，即可完成跨服。
+6. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
+7. **启动 Surge 4**：点击“首页”右上角“启动”按钮启动 Surge 4，即可完成跨服。

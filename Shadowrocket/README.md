@@ -18,7 +18,7 @@
 ## ⚠️ 特别说明 ⚠️
 1. 一定要是 Shadowrocket 的 2.1.49 (964) 及以上 TF 或商店版本，因为旧版本中有一个“正则出错导致匹配结果越界”的 Bug，会使得 VPN 在触发规则时停止运行。
 2. 新建的节点为本机地址（可以自行谷歌一下“localhost”及“127.0.0.1”的用途），并非自建服务器。
-3. **每个版本更新或资源更新后，需先进 iOS 国服下载资源。**
+3. **若出现资源缺失，需先进 iOS 国服下载资源。**
 
 ---
 
@@ -68,9 +68,9 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrock
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
-^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_android&t=$3&uid=$4 HEADER
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
 # >> iOS国服
-^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_ios&t=$3&uid=$4 HEADER
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
 # >> 全平台（桌面）服
 ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
 

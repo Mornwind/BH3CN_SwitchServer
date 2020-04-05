@@ -19,6 +19,7 @@
 
 ## ⚠️ 特别说明 ⚠️
 1. “进阶方法——脚本法”中，跨服脚本中**并未含有**用于修改游戏内数据以获得不正当收益的作弊内容，只是用来切换服务器，故理论上不会被封号。跨服脚本代码**公开透明**地存放于本项目中，欢迎随时进行检查。如若不放心，还请使用“入门方法——重定向法”，或者另寻他法。
+2. **若出现资源缺失，需先进 iOS 国服下载资源。**
 
 ---
 
@@ -52,9 +53,6 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult
 
 # 改写连入服务器的客户端标识
 ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3_vid_rewrite.js
-
-# 确保每个版本首次进入服务器时，提示下载资源
-^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-response-body bh3_resource_update.js
 
 [MITM]
 hostname = *.bh3.com

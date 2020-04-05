@@ -22,11 +22,11 @@ const hun02 = "139.196.248.219";
 // > 官服
 // >> 安卓国服
 if (url.indexOf(android01) != -1) {
-	url = url.replace(/gf_.+?&/,"gf_android&");
+	url = url.replace(/gf_.+?&/,"gf_pc&");
 };
 // >> iOS国服
 if (url.indexOf(ios01) != -1) {
-	url = url.replace(/gf_.+?&/,"gf_ios&");
+	url = url.replace(/gf_.+?&/,"gf_pc&");
 };
 // >> 全平台（桌面）服
 if (url.indexOf(pc01) != -1) {
@@ -35,11 +35,11 @@ if (url.indexOf(pc01) != -1) {
 // > 渠道服（详见说明文档最前面的“注意事项”部分）
 // >> Bilibili服
 if (url.indexOf(bb01) != -1) {
-	url = url.replace(/gf_.+?&/,"gf_android_bilibili&");
+	url = url.replace(/gf_.+?&/,"gf_pc&");
 };
 // >> 应用宝服
 if (url.indexOf(yyb01) != -1) {
-	url = url.replace(/gf_.+?&/,"gf_android_tencent&");
+	url = url.replace(/gf_.+?&/,"gf_pc&");
 };
 // >> 渠道1服
 if (url.indexOf(hun01) != -1) {

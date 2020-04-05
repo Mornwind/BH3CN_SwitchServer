@@ -16,7 +16,7 @@
 3. **本项目中关于渠道服的部分，仅作学习参考，尚起不到实际用途。** 目前在 PC 端账号密码登录方式的服务器列表中，实际上是包含四个渠道服的，但是全都被官方隐藏了，目前应该是还没准备好（第2点里面已经说了原因）。所以就算手动解除了隐藏状态，也是登录不进去的。
 
 ## ⚠️ 特别说明 ⚠️
-1. **每个版本更新或资源更新后，需先进 iOS 国服下载资源。**
+1. **若出现资源缺失，需先进 iOS 国服下载资源。**
 
 ---
 
@@ -64,9 +64,9 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult
 # 改写连入服务器的客户端标识
 # > 官服
 # >> 安卓国服
-^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.14.51.73/query_gameserver?version=$1_gf_android&t=$3&uid=$4
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
 # >> iOS国服
-^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://139.224.7.27/query_gameserver?version=$1_gf_ios&t=$3&uid=$4
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
 # >> 全平台（桌面）服
 ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
 
