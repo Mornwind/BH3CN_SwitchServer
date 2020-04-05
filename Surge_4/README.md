@@ -7,6 +7,8 @@
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
  > ② FlintyLemming：[QuanX 跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
+ > 
+ > ③ KorenKrita
 
 ---
 

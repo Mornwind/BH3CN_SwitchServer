@@ -7,6 +7,8 @@
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
  > 
  > ② FlintyLemming：[QuanX 跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
+ > 
+ > ③ KorenKrita
 
 ## 前言
 作为一个晚登录两三天没能拿到“登录纪念勋章”的安卓国服的甲板老清洁工，自从嫌弃安卓机的卡慢（以及当年月光的光翼特效显示不出来），咬咬牙入了 iPod touch 和 iPad Pro 之后，便开始发愁：安卓端甲板上的老婆们，要怎么打包带到 iOS 端？
