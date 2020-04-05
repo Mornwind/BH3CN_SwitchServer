@@ -59,10 +59,10 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult
 
 ```
 [REWRITE]
-# 获取全平台服务器列表
+# 崩坏3 跨服
+# > 获取全平台服务器列表
 ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url 302 https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4
-# 改写连入服务器的客户端标识
-# > 官服
+# > 改写连入服务器的客户端标识
 # >> 安卓国服
 ^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
 # >> iOS国服
