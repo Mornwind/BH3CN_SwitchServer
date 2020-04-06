@@ -37,7 +37,7 @@
 
 ```
 [rewrite_remote]
-# 新手直接订阅使用，无需自行更动
+# 崩坏3 跨服（新手直接订阅使用，无需自行更动）
 https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_rewrite.conf, tag=BH3 Region Rewrite, enabled=true
 ```
 
@@ -48,10 +48,10 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult
 
 ```
 [rewrite_local]
-# 自定义服务器列表
+# 崩坏3 跨服
+# > 自定义服务器列表
 ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-response-body bh3_region_list.js
-
-# 改写连入服务器的客户端标识
+# > 改写连入服务器的客户端标识
 ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3_vid_rewrite.js
 
 [MITM]
