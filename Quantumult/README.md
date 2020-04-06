@@ -21,7 +21,7 @@
 ---
 
 ## 效果预览
-![使用 Quantumult 跨服](/Quantumult/quantumult_preview.jpg)
+![使用 Quantumult 跨服](/Quantumult/Quantumult_Preview.jpg)
 
 ---
 

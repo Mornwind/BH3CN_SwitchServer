@@ -24,7 +24,7 @@
 ---
 
 ## 效果预览
-![使用 Quantumult X 跨服](/Quantumult_X/quantumult_x_preview.jpg)
+![使用 Quantumult X 跨服](/Quantumult_X/Quantumult_X_Preview.jpg)
 
 ## 配置教程
 详见 FlintyLemming 的 [Quantumult X 跨服教程](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md)。

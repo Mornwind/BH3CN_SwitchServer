@@ -22,7 +22,7 @@
 ---
 
 ## 效果预览
-![使用 Pepi 跨服](/Pepi/pepi_preview.jpg)
+![使用 Pepi 跨服](/Pepi/Pepi_Preview.jpg)
 
 ---
 

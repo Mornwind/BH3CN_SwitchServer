@@ -31,7 +31,7 @@
 ---
 
 ## 效果预览
-![国服服务器列表预览](/bh3_region_list_preview.gif)
+![崩坏3 跨服预览](/BH3_Region_Selector_Preview.jpg)
 
 ---
 

@@ -23,7 +23,7 @@
 ---
 
 ## 效果预览
-![使用 Shadowrocket 跨服](/Shadowrocket/shadowrocket_preview.jpg)
+![使用 Shadowrocket 跨服](/Shadowrocket/Shadowrocket_Preview.jpg)
 
 ---
 

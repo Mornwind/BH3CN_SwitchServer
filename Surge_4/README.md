@@ -24,7 +24,7 @@
 ---
 
 ## 效果预览
-![使用 Surge 4 跨服](/Surge_4/surge_4_preview.jpg)
+![使用 Surge 4 跨服](/Surge_4/Surge_4_Preview.jpg)
 
 ---
 
