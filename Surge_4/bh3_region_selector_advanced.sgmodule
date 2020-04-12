@@ -1,0 +1,12 @@
+#!name=崩坏3 跨服（进阶方法——脚本法）
+#!desc=使用“进阶方法——脚本法”来对「崩坏3」进行跨服（仅官服）
+#!system=ios
+
+[Script]
+# 自定义服务器列表
+bh3_region_list.js = type=http-response,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_list.js,requires-body=1,max-size=0
+# 改写连入服务器的客户端标识
+bh3_vid_rewrite.js = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
+
+[MITM]
+hostname = %APPEND% *.bh3.com
