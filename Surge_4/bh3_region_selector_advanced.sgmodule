@@ -1,11 +1,12 @@
-#!name=崩坏3 跨服（iOS 端 → 官服服务器）
+#!name=「崩坏3」跨服（iOS 端 → 官服服务器）
 #!desc=通过“进阶方法——脚本法”，进行「崩坏3」跨服。可在 iOS 端上登录“安卓国服”、“iOS 国服”和“全平台（桌面）服”。
 #!system=ios
 
 [Script]
-# 自定义服务器列表
+# 崩坏3 跨服
+# > 自定义服务器列表
 bh3_region_list.js = type=http-response,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_list.js,requires-body=1,max-size=0
-# 改写连入服务器的客户端标识
+# > 改写连入服务器的客户端标识
 bh3_vid_rewrite.js = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_vid_rewrite.js
 
 [MITM]
