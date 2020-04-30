@@ -41,7 +41,7 @@
 
 | 跨服方式 | 跨服教程 | 跨服配置<br/>（重定向法） | 跨服配置<br/>（脚本法） |
 | :-: | :-: | :-: | :-: |
-| [HTTP Catcher](/HTTP_Catcher) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件 v3.8.0](/HTTP_Catcher/bh3_region_selector_v3.8.0.hcc) | - |
+| [HTTP Catcher](/HTTP_Catcher) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3_region_selector_v3.9.0.hcc) | - |
 | [Thor](/Thor) | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
 | [Shadowrocket](/Shadowrocket) | [Markdown 文档](/Shadowrocket/README.md) | [Markdown 文档](/Shadowrocket/README.md) | - |
 | [Pepi](/Pepi) | [Markdown 文档](/Pepi/README.md) | [Markdown 文档](/Pepi/README.md) | - |
