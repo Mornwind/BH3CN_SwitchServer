@@ -41,32 +41,34 @@
 
 | 跨服方式 | 跨服教程 | 跨服配置<br/>（重定向法） | 跨服配置<br/>（脚本法） |
 | :-: | :-: | :-: | :-: |
-| [HTTP Catcher](/HTTP_Catcher) | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3_region_selector_v3.9.0.hcc) | - |
-| [Thor](/Thor) | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
-| [Shadowrocket](/Shadowrocket) | [Markdown 文档](/Shadowrocket/README.md) | [Markdown 文档](/Shadowrocket/README.md) | - |
+| [HTTP Catcher](/HTTP_Catcher)<br/>（网球） | [一图流](/HTTP_Catcher/BH3_SwitchServer_Guide_HTTP_Catcher.jpg) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3_region_selector_v3.9.0.hcc) | - |
+| [iHTTP Tracker](/iHTTP_Tracker)<br/>（猫头鹰） | - | [.iRW 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3_region_selector_v3.9.0.iRW) | - |
+| [Thor](/Thor)<br/>（锤子） | [一图流](/Thor/BH3_SwitchServer_Guide_Thor.jpg) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) | - |
+| [Shadowrocket](/Shadowrocket)<br/>（小火箭） | [Markdown 文档](/Shadowrocket/README.md) | [Markdown 文档](/Shadowrocket/README.md) | - |
 | [Pepi](/Pepi) | [Markdown 文档](/Pepi/README.md) | [Markdown 文档](/Pepi/README.md) | - |
-| [Quantumult](/Quantumult) | [Markdown 文档](/Quantumult/README.md) | [Markdown 文档](/Quantumult/README.md) | - |
-| [Quantumult X](/Quantumult_X) | [FlintyLemming](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
+| [Quantumult](/Quantumult)<br/>（圈） | [Markdown 文档](/Quantumult/README.md) | [Markdown 文档](/Quantumult/README.md) | - |
+| [Quantumult X](/Quantumult_X)<br/>（圈叉） | [FlintyLemming](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [Markdown 文档](/Quantumult_X/README.md) | [Markdown 文档](/Quantumult_X/README.md) |
 | [Surge 4](/Surge_4) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) | [Markdown 文档](/Surge_4/README.md) |
-| [Loon](/Loon) | 参考 Surge 4 | 参考 Surge 4 | 参考 Surge 4 |
+| [Loon](/Loon)<br/>（气球） | 参考 Surge 4 | 参考 Surge 4 | 参考 Surge 4 |
 | ME 社跨服包 | 见 ME 社公众号 | - | - |
 
 | 跨服方式 | 国区商店<br/>购买与下载 | 正规渠道价格 | 工具入门<br/>容易程度 | 跨服操作<br/>方便程度 | 可自定义<br/>服务器列表 | 设备上同时<br/>挂梯与跨服 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| HTTP Catcher | ✅ | \$3.99（内购）<br/>¥28.00（内购） | ★★★ | ★★★★ | ✅ | ❌ |
-| Thor | ✅ | \$12.99<br/>¥88.00 | ★ | ★★★★ | ✅ | ❌ |
-| Shadowrocket | ❌ | \$2.99 | ★★★★ | ★★★ | ❌ | ✅ |
+| HTTP Catcher<br/>（网球） | ✅ | ¥28.00（内购）<br/>\$3.99（内购） | ★★★ | ★★★★ | ✅ | ❌ |
+| iHTTP Tracker<br/>（猫头鹰） | ✅ | ¥12.00<br/>\$1.99 | ★★★ | ★★★★ | ✅ | ❌ |
+| Thor<br/>（锤子） | ✅ | ¥88.00<br/>\$12.99 | ★ | ★★★★ | ✅ | ❌ |
+| Shadowrocket<br/>（小火箭） | ❌ | \$2.99 | ★★★★ | ★★★ | ❌ | ✅ |
 | Pepi | ❌ | \$1.99 | ★★ | ★★ | ❌ | ✅ |
-| Quantumult | ❌ | \$4.99 | ★★ | ★★ | ❌ | ✅ |
-| Quantumult X | ❌ | \$7.99 | ★ | ★ | ✅ | ✅ |
-| Surge 4 | ❌ | \$49.99（首次内购）<br/>+ \$14.99/y（订阅） | ★ | ★ | ✅ | ✅ |
-| Loon | ❌ | \$2.99 | ★ | ★ | ✅ | ✅ |
-| ME 社跨服包<br/>（自签） | - | 免费 | ★★★ | ★★ | ❌ | ✅ |
+| Quantumult<br/>（圈） | ❌ | \$4.99 | ★★ | ★★ | ❌ | ✅ |
+| Quantumult X<br/>（圈叉） | ❌ | \$7.99 | ★ | ★★ | ✅ | ✅ |
+| Surge 4 | ❌ | \$49.99（首次内购）<br/>+ \$14.99/y（订阅） | ★ | ★★ | ✅ | ✅ |
+| Loon<br/>（气球） | ❌ | \$2.99 | ★ | ★★ | ✅ | ✅ |
+| ME 社跨服包<br/>（自签） | - | 免费 | ★★★ | ★ | ❌ | ✅ |
 | ME 社跨服包<br/>（免签） | - | ¥60.00/三个大版本 | ★★★★★ | ★★★★★ | ❌ | ✅ |
 
 注：
 
-[1] 崩坏3/少女前线跨服群：[`915089623`](https://jq.qq.com/?_wv=1027&k=5rnvPAT)
+[1] 世界蛇⟡崩3少前跨服群：[`915089623`](https://jq.qq.com/?_wv=1027&k=5rnvPAT)
 
 [2] ME 社公众号：
 
@@ -81,6 +83,7 @@
 
 - **抓包工具**
   - [HTTP Catcher](https://apps.apple.com/app/id1445874902)
+  - [iHTTP Tracker](https://apps.apple.com/app/id1463315864)
   - [Thor](https://apps.apple.com/app/id1210562295)
 - **代理&抓包工具**
   - [Shadowrocket](https://apps.apple.com/app/id932747118)
