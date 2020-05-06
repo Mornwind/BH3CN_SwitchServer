@@ -21,8 +21,16 @@
           "FromKey" : "version",
           "ToKey" : "",
           "Type" : "Modify Query Param",
-          "FromValue" : "",
+          "FromValue" : "3.9.0_gf_ios",
           "ToValue" : "3.9.0_gf_pc"
+        },
+        {
+          "Breakpoint" : "Response",
+          "FromKey" : "",
+          "ToKey" : "",
+          "Type" : "Body",
+          "FromValue" : "disable_msad",
+          "ToValue" : "update_streaming_asb"
         }
       ]
     }
