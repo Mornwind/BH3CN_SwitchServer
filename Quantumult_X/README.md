@@ -1,4 +1,4 @@
-# 「崩坏3」跨服配置（Quantumult X）（iOS 端 → 官服服务器）
+# 「崩坏3」跨服配置（Quantumult X）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
  > GitHub Link: [BH3_Region_Selector/Quantumult_X](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Quantumult_X)
@@ -26,6 +26,14 @@
 
 ## 效果预览
 ![使用 Quantumult X 跨服](/Quantumult_X/Quantumult_X_Preview.jpg)
+
+---
+
+## 前期准备
+- 账号：安卓国服
+- 系统：iOS 12+ / iPadOS 13+
+- 工具：[Quantumult X](https://apps.apple.com/app/id1443988620)
+- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Quantumult_X](/Quantumult_X)
 
 ## 配置教程
 详见 FlintyLemming 的 [Quantumult X 跨服教程](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md)。

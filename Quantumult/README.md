@@ -1,4 +1,4 @@
-# 「崩坏3」跨服教程（Quantumult）（iOS 端 → 官服服务器）
+# 「崩坏3」跨服教程（Quantumult）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
  > GitHub Link: [BH3_Region_Selector/Quantumult](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Quantumult)
@@ -30,7 +30,7 @@
 ## 前期准备
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
-- 工具：[Quantumult](https://apps.apple.com/app/id1252015438) 
+- 工具：[Quantumult](https://apps.apple.com/app/id1252015438)
 - GitHub 项目链接：[Mornwind/BH3_Region_Selector/Quantumult](/Quantumult)
 
 ## 配置方法（重定向法）
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult
 
 2. **启用 HTTPS 解密**：在“设置”页面的“TCP”部分，找到“HTTPS 解密”点击进入，然后打开“HTTPS 解密”的开关。
 3. **安装 MitM 证书**：点击下方“密钥及证书”部分中的“生成密钥及证书”，成功生成证书后，点击右上角“保存”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
-4. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；保存“HTTPS 解密”设置，然后返回“设置”页面。
+4. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；返回 Quantumult，保存“HTTPS 解密”设置，然后返回“设置”页面。
 5. **设置运行模式**：在“设置”页面的“TCP”部分，找到“运行模式”点击进入，在“选择运行模式”中选择“自动分流”，然后返回“主页”。
 6. **启动 Quantumult**：打开“主页”右上角的连接开关，然后在清除了游戏后台的情况下进入游戏，即可实现跨服。
 7. **停止 Quantumult**：不玩游戏时，别忘了停止 Quantumult 的连接。
@@ -79,6 +79,6 @@ hostname = *.bh3.com
 
 3. **启用 HTTPS 解密**：在“设置”页面的“TCP”部分，找到“HTTPS 解密”点击进入，然后打开“HTTPS 解密”的开关。
 4. **安装 MitM 证书**：点击下方“密钥及证书”部分中的“生成密钥及证书”，成功生成证书后，点击右上角“保存”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
-5. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；保存“HTTPS 解密”设置，然后返回“设置”页面。
+5. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；返回 Quantumult，保存“HTTPS 解密”设置，然后返回“设置”页面。
 6. **设置运行模式**：在“设置”页面的“TCP”部分，找到“运行模式”点击进入，在“选择运行模式”中选择“自动分流”，然后返回“主页”。
 7. **重启 Quantumult**：为确保修改生效，可以开关一次 Quantumult 的连接开关，然后在清除了游戏后台的情况下进入游戏，即可实现跨服。

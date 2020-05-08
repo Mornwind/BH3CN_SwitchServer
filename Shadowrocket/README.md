@@ -1,4 +1,4 @@
-# 「崩坏3」跨服教程（Shadowrocket）（iOS 端 → 官服服务器）
+# 「崩坏3」跨服教程（Shadowrocket）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
  > GitHub Link: [BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Shadowrocket)
@@ -31,7 +31,7 @@
 ## 前期准备
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
-- 工具：[Shadowrocket](https://apps.apple.com/app/id932747118) 
+- 工具：[Shadowrocket](https://apps.apple.com/app/id932747118)
 - GitHub 项目链接：[Mornwind/BH3_Region_Selector/Shadowrocket](/Shadowrocket)
 
 ## 配置方法（重定向法）
@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrock
 4. **下载并应用简易跨服配置**：在“远程文件”中点击该 URL，选择“使用配置”，等待下载完毕后，即可看到“本地文件”中加载了本配置。
 5. **安装 MitM 证书**：从“本地文件”中找到当前正在使用的配置，点击它，在弹出的列表中选择“编辑配置”，进入“HTTPS 解密”，点击“证书授权”部分的“密码”右侧的ⓘ，在弹出的“证书”窗口中点击“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
 6. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后返回 Shadowrocket 的“HTTPS 解密”页面。
-7. **启用 HTTPS 解密**：打开“HTTPS 解密”的开关，点击右上角的“✓”保存设置；然后返回首页。
+7. **启用 HTTPS 解密**：打开“HTTPS 解密”的开关，点击右上角的“✓”保存设置；然后返回 Shadowrocket 的首页。
 8. **启动 Shadowrocket**：打开 Shadowrocket 的连接开关，然后在清除了游戏后台的情况下进入游戏，即可实现跨服。（不玩游戏时，别忘了停止 Shadowrocket 的连接。）
 
 ### 方法二：手动写入当前使用中配置
@@ -81,5 +81,5 @@ hostname = *.bh3.com
 
 3. **安装 MitM 证书**：从“本地文件”中找到当前正在使用的配置，点击它，在弹出的列表中选择“编辑配置”，进入“HTTPS 解密”，点击“证书授权”部分的“密码”右侧的ⓘ，在弹出的“证书”窗口中点击“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
 4. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后返回 Shadowrocket 的“HTTPS 解密”页面。
-5. **启用 HTTPS 解密**：打开“HTTPS 解密”的开关，点击右上角的“✓”保存设置；然后返回首页。
+5. **启用 HTTPS 解密**：打开“HTTPS 解密”的开关，点击右上角的“✓”保存设置；然后返回 Shadowrocket 的首页。
 6. **重启 Shadowrocket**：为确保修改生效，可以开关一次 Shadowrocket 的连接开关，然后在清除了游戏后台的情况下进入游戏，即可实现跨服。
