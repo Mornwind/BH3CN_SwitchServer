@@ -1,7 +1,7 @@
 # 「崩坏3」跨服方式一览（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3CN_SwitchServer](https://github.com/Mornwind/BH3CN_SwitchServer)
+ > GitHub Link: [Mornwind/BH3CN_SwitchServer](https://github.com/Mornwind/BH3CN_SwitchServer)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)

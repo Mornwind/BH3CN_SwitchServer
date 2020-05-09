@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（HTTP Catcher）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3CN_SwitchServer/HTTP_Catcher](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/HTTP_Catcher)
+ > GitHub Link: [Mornwind/BH3CN_SwitchServer/HTTP_Catcher](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/HTTP_Catcher)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
