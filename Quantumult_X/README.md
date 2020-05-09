@@ -20,7 +20,7 @@
 5. **若出现资源缺失，需先进 iOS 国服下载资源。**
 
 ## ⚠️ 特别说明 ⚠️
-1. “进阶方法——脚本法”中，跨服脚本中**并未含有**用于修改游戏内数据以获得不正当收益的作弊内容，只是用来切换服务器，故理论上不会被封号。跨服脚本代码**公开透明**地存放于本项目中，欢迎随时进行检查。如若不放心，还请使用“入门方法——重定向法”，或者另寻他法。
+1. “脚本法”中，跨服脚本中**并未含有**用于修改游戏内数据以获得不正当收益的作弊内容，只是用来切换服务器，故理论上不会被封号。跨服脚本代码**公开透明**地存放于本项目中，欢迎随时进行检查。如若不放心，还请使用“重定向法”，或者另寻他法。
 2. 请勿使用共享或盗版，否则会触发防御机制，导致 Quantumult X 的关键功能永久失效。
 
 ---
@@ -39,8 +39,8 @@
 ## 配置教程
 详见 FlintyLemming 的 [Quantumult X 跨服教程](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md)。
 
-## 配置信息
-### 入门方法——重定向法
+## 配置方法
+### 方法 A：重定向法
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
  > 
  > 仅使用 **URL 重定向（URL Rewrite）** 功能实现。
@@ -51,18 +51,32 @@
 https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_rewrite.conf, tag=BH3 Region Rewrite, enabled=true
 ```
 
-### 进阶方法——脚本法
- > 自定义服务器列表，可调整顺序、删去多余服务器。
+### 方法 B：脚本法
+ > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
  > 
  > 仅使用 **脚本（Script）** 功能实现。
 
+#### 本地脚本（商店版、TF 版均可用）
 ```
 [rewrite_local]
 # 崩坏3 跨服
-# > 自定义服务器列表
-^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-response-body bh3_region_list.js
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header bh3_region_selector.js
 # > 改写连入服务器的客户端标识
-^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3_vid_rewrite.js
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3_region_selector.js
+
+[MITM]
+hostname = *.bh3.com
+```
+
+#### 远程脚本（仅 TF 版可用）
+```
+[rewrite_local]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_selector.js
+# > 改写连入服务器的客户端标识
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_selector.js
 
 [MITM]
 hostname = *.bh3.com
