@@ -44,11 +44,11 @@
 | [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3_region_selector_v3.9.0.hcc) |
 | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.iRW 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3_region_selector_v3.9.0.iRW) |
 | [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) |
-| [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [图文教程](/Shadowrocket/README.md) |
-| [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) | [图文教程](/Pepi/README.md) |
-| [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) | [图文教程](/Quantumult/README.md) |
-| [Quantumult X](/Quantumult_X) | 圈叉 | [FlintyLemming 图文教程](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [图文教程](/Quantumult_X/README.md) |
-| [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) | [图文教程](/Surge_4/README.md) |
+| [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
+| [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |
+| [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) | [配置内容](/Quantumult/README.md) |
+| [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（FlintyLemming）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [配置内容](/Quantumult_X/README.md) |
+| [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) | [配置内容](/Surge_4/README.md) |
 | [Loon](/Loon) | 气球 | 参考 Surge 4 | 参考 Surge 4 |
 | ME 社跨服包 | - | 见 ME 社公众号 | 见 ME 社公众号 |
 
