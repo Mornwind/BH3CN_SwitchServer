@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（Pepi）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Pepi)
+ > GitHub Link: [BH3CN_SwitchServer/Shadowrocket](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Pepi)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -31,7 +31,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[Pepi](https://apps.apple.com/app/id1283082051)
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Pepi](/Pepi)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Pepi](/Pepi)
 
 ## 配置方法（重定向法）
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
@@ -45,7 +45,7 @@
 2. **下载并应用简易跨服规则文件**：点击主页左上角三横线“☰”，进入“配置”→“规则文件”页面，点击“导入”中的“从 URL 下载”，在弹出的窗口中，输入下面的 URL 下载规则文件，然后在上方“规则文件”列表中点击选中刚刚下载的规则。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Pepi/bh3_region_selector.conf
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Pepi/bh3cn_switchserver.conf
 ```
 
 3. **安装 MitM 证书**：回到首页，点击主页左上角三横线“☰”，进入“设置”→“HTTPS”页面，点击“证书”中的“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。

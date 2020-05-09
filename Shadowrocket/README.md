@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（Shadowrocket）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/Shadowrocket](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Shadowrocket)
+ > GitHub Link: [BH3CN_SwitchServer/Shadowrocket](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Shadowrocket)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -32,7 +32,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[Shadowrocket](https://apps.apple.com/app/id932747118)
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Shadowrocket](/Shadowrocket)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Shadowrocket](/Shadowrocket)
 
 ## 配置方法（重定向法）
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
@@ -47,7 +47,7 @@
 3. **设置远程订阅 URL**：在“配置文件”页面，点击右上角“+”，输入下面的远程订阅 URL，点击下载。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Shadowrocket/bh3_region_selector.conf
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Shadowrocket/bh3cn_switchserver.conf
 ```
 
 4. **下载并应用简易跨服配置**：在“远程文件”中点击该 URL，选择“使用配置”，等待下载完毕后，即可看到“本地文件”中加载了本配置。

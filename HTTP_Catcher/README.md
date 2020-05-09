@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（HTTP Catcher）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/HTTP_Catcher](https://github.com/Mornwind/BH3_Region_Selector/tree/master/HTTP_Catcher)
+ > GitHub Link: [BH3CN_SwitchServer/HTTP_Catcher](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/HTTP_Catcher)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -29,7 +29,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[HTTP Catcher](https://apps.apple.com/app/id1445874902)
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/HTTP_Catcher](/HTTP_Catcher)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/HTTP_Catcher](/HTTP_Catcher)
 
 ## 配置方法
 1. **下载并导入跨服配置文件**：找到并下载“.hcc”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘HTTP Catcher’”；在 HTTP Catcher 中弹出的“导入”对话框中选择“好的”，即可成功导入。

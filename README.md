@@ -1,7 +1,7 @@
 # 「崩坏3」跨服方式一览（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector](https://github.com/Mornwind/BH3_Region_Selector)
+ > GitHub Link: [BH3CN_SwitchServer](https://github.com/Mornwind/BH3CN_SwitchServer)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -33,7 +33,7 @@
 ---
 
 ## 效果预览
-![崩坏3 跨服预览](/BH3_Region_Selector_Preview.jpg)
+![崩坏3 跨服预览](/BH3CN_SwitchServer_Preview.jpg)
 
 ---
 
@@ -41,9 +41,9 @@
 
 | 跨服工具 | 别名 | 跨服教程 | 跨服配置 |
 | :-: | :-: | :-: | :-: |
-| [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3_region_selector_v3.9.0.hcc) |
-| [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.iRW 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3_region_selector_v3.9.0.iRW) |
-| [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3_region_selector.f4thor) |
+| [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3cn_switchserver_v3.9.0.hcc) |
+| [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.iRW 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.iRW) |
+| [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3cn_switchserver.f4thor) |
 | [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
 | [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |
 | [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) | [配置内容](/Quantumult/README.md) |

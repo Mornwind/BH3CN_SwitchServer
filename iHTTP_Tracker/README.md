@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（iHTTP Tracker）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/iHTTP_Tracker](https://github.com/Mornwind/BH3_Region_Selector/tree/master/iHTTP_Tracker)
+ > GitHub Link: [BH3CN_SwitchServer/iHTTP_Tracker](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/iHTTP_Tracker)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -29,7 +29,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[iHTTP Tracker](https://apps.apple.com/app/id1463315864)
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/iHTTP_Tracker](/iHTTP_Tracker)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/iHTTP_Tracker](/iHTTP_Tracker)
 
 ## 配置方法
 1. **下载并导入跨服配置文件**：找到并下载“.iRW”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘iHTTP Tracker’”；在 iHTTP Tracker 中弹出的“检测到导入重写规则”对话框中选择“导入”，即可成功导入。

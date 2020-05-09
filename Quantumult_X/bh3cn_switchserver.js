@@ -4,7 +4,7 @@ By: Mornwind
 Reference: 霞ヶ丘詩羽x / FlintyLemming
 
 README:
-https://github.com/Mornwind/BH3_Region_Selector/blob/master/README.md
+https://github.com/Mornwind/BH3CN_SwitchServer/blob/master/README.md
 */
 
 let url = $request.url;

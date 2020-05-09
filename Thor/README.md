@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（Thor）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/Thor](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Thor)
+ > GitHub Link: [BH3CN_SwitchServer/Thor](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Thor)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -30,7 +30,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[Thor](https://apps.apple.com/app/id1210562295)
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Thor](/Thor)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Thor](/Thor)
 
 ## 配置方法
 1. **下载并导入跨服配置文件**：找到并下载“.f4thor”类型的跨服配置（过滤器）文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘Thor’”；在弹出的跨服配置（过滤器）预览页面中，点击右上角导出图标，在弹出的菜单中选择“装载”，在弹出的“安全提醒”对话框中选择“继续”，即可成功导入；然后点击左上角的“✗”，回到首页。

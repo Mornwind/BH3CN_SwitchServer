@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（Quantumult）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/Quantumult](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Quantumult)
+ > GitHub Link: [BH3CN_SwitchServer/Quantumult](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Quantumult)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -31,7 +31,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[Quantumult](https://apps.apple.com/app/id1252015438)
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Quantumult](/Quantumult)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Quantumult](/Quantumult)
 
 ## 配置方法（重定向法）
  > 默认全平台列表（本身就是完整列表，由官方云端控制，只不过账号密码登录方式中隐藏了渠道服入口）。
@@ -44,7 +44,7 @@
 1. **下载简易跨服配置**：在“设置”页面的“配置文件”部分，点击“下载配置文件”，在弹出的窗口中输入下面的配置文件下载 URL，点击“好”来下载配置文件，然后在弹出的配置编辑窗口中点击右上角“保存”。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult/bh3_region_selector.conf
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult/bh3cn_switchserver.conf
 ```
 
 2. **启用 HTTPS 解密**：在“设置”页面的“TCP”部分，找到“HTTPS 解密”点击进入，然后打开“HTTPS 解密”的开关。

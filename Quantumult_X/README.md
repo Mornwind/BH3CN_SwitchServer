@@ -1,7 +1,7 @@
 # 「崩坏3」跨服配置（Quantumult X）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/Quantumult_X](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Quantumult_X)
+ > GitHub Link: [BH3CN_SwitchServer/Quantumult_X](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Quantumult_X)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -34,7 +34,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[Quantumult X](https://apps.apple.com/app/id1443988620)
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Quantumult_X](/Quantumult_X)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Quantumult_X](/Quantumult_X)
 
 ## 配置教程
 详见 FlintyLemming 的 [Quantumult X 跨服教程](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md)。
@@ -48,7 +48,7 @@
 ```
 [rewrite_remote]
 # 崩坏3 跨服（新手直接订阅使用，无需自行更动）
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_rewrite.conf, tag=BH3 Region Rewrite, enabled=true
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.conf, tag=BH3CN_SwitchServer, enabled=true
 ```
 
 ### 方法 B：脚本法
@@ -61,9 +61,9 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult
 [rewrite_local]
 # 崩坏3 跨服
 # > 获取全平台服务器列表
-^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header bh3_region_selector.js
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header bh3cn_switchserver.js
 # > 改写连入服务器的客户端标识
-^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3_region_selector.js
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3cn_switchserver.js
 
 [MITM]
 hostname = *.bh3.com
@@ -74,9 +74,9 @@ hostname = *.bh3.com
 [rewrite_local]
 # 崩坏3 跨服
 # > 获取全平台服务器列表
-^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_selector.js
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.js
 # > 改写连入服务器的客户端标识
-^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Quantumult_X/bh3_region_selector.js
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.js
 
 [MITM]
 hostname = *.bh3.com

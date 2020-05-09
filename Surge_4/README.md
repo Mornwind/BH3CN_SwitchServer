@@ -1,7 +1,7 @@
 # 「崩坏3」跨服教程（Surge 4）（iOS 端 → 安卓国服）
  > By: [Mornwind](https://blog.mornwind.cc)
  > 
- > GitHub Link: [BH3_Region_Selector/Surge_4](https://github.com/Mornwind/BH3_Region_Selector/tree/master/Surge_4)
+ > GitHub Link: [BH3CN_SwitchServer/Surge_4](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Surge_4)
 
 ## 参考来源
  > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
@@ -33,7 +33,7 @@
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
 - 工具：[Surge 4](https://apps.apple.com/app/id1442620678)（注：[Loon](https://apps.apple.com/app/id1373567447) 的方法大同小异）
-- GitHub 项目链接：[Mornwind/BH3_Region_Selector/Surge_4](/Surge_4)
+- GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Surge_4](/Surge_4)
 
 ## 跨服方法
 ### 方法 A：重定向法
@@ -47,7 +47,7 @@
 3. **安装并启用跨服配置模块**：在“首页”中找到“模块”卡片（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见），点击“模块”，在弹出的“模块”界面中，找到“安装的模块”部分，点击“安装新模块...”，然后在弹出的“安装模块”对话框中输入下面的 URL 地址，点“好的”下载模块文件。然后在弹出的配置预览窗口中，**检查有无恶意内容并仔细阅读最下方的“警告”**，在确认无误后，点击最下方的“安装”。回到“模块”界面，即可看到跨服配置模块已成功安装，左侧有“✓”表示该模块已启用。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_selector_A.sgmodule
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver_A.sgmodule
 ```
 
 4. **启用“Rewrite”和“MitM”功能**：回到“首页”中，将“Rewrite”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
@@ -91,7 +91,7 @@ hostname = *.bh3.com
 3. **安装并启用跨服配置模块**：在“首页”中找到“模块”卡片（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见），点击“模块”，在弹出的“模块”界面中，找到“安装的模块”部分，点击“安装新模块...”，然后在弹出的“安装模块”对话框中输入下面的 URL 地址，点“好的”下载模块文件。然后在弹出的配置预览窗口中，**检查有无恶意内容并仔细阅读最下方的“警告”**，在确认无误后，点击最下方的“安装”。回到“模块”界面，即可看到跨服配置模块已成功安装，左侧有“✓”表示该模块已启用。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_selector_B.sgmodule
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver_B.sgmodule
 ```
 
 4. **启用“Rewrite”和“MitM”功能**：回到“首页”中，将“Rewrite”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
@@ -107,9 +107,9 @@ https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh
 [Script]
 # 崩坏3 跨服
 # > 获取全平台服务器列表
-bh3_region_selector.js = type=http-request,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_selector.js
+bh3cn_switchserver.js = type=http-request,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
 # > 改写连入服务器的客户端标识
-bh3_region_selector.js = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/Surge_4/bh3_region_selector.js
+bh3cn_switchserver.js = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
 
 [MITM]
 hostname = *.bh3.com
