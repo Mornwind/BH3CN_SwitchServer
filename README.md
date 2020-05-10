@@ -77,53 +77,53 @@
 
 ---
 
-## 附录1：App 商店链接
+## 附录1：App Store 链接
 - **游戏本体**
-  - [崩坏3](https://apps.apple.com/app/id1143402987)
+  - 崩坏3：[https://apps.apple.com/app/id1143402987](https://apps.apple.com/app/id1143402987)
 
-- **抓包工具**
-  - [HTTP Catcher](https://apps.apple.com/app/id1445874902)
-  - [iHTTP Tracker](https://apps.apple.com/app/id1463315864)
-  - [Thor](https://apps.apple.com/app/id1210562295)
-- **代理&抓包工具**
-  - [Shadowrocket](https://apps.apple.com/app/id932747118)
-  - [Pepi](https://apps.apple.com/app/id1283082051)
-  - [Quantumult](https://apps.apple.com/app/id1252015438)
-  - [Quantumult X](https://apps.apple.com/app/id1443988620)
-  - [Surge 4](https://apps.apple.com/app/id1442620678)
-  - [Loon](https://apps.apple.com/app/id1373567447)
+- **网络调试工具（仅抓包）**
+  - HTTP Catcher：[https://apps.apple.com/app/id1445874902](https://apps.apple.com/app/id1445874902)
+  - iHTTP Tracker：[https://apps.apple.com/app/id1463315864](https://apps.apple.com/app/id1463315864)
+  - Thor：[https://apps.apple.com/app/id1210562295](https://apps.apple.com/app/id1210562295)
+- **网络调试工具（抓包、代理）**
+  - Shadowrocket：[https://apps.apple.com/app/id932747118](https://apps.apple.com/app/id932747118)
+  - Pepi：[https://apps.apple.com/app/id1283082051](https://apps.apple.com/app/id1283082051)
+  - Quantumult：[https://apps.apple.com/app/id1252015438](https://apps.apple.com/app/id1252015438)
+  - Quantumult X：[https://apps.apple.com/app/id1443988620](https://apps.apple.com/app/id1443988620)
+  - Surge 4：[https://apps.apple.com/app/id1442620678](https://apps.apple.com/app/id1442620678)
+  - Loon：[https://apps.apple.com/app/id1373567447](https://apps.apple.com/app/id1373567447)
 
 ## 附录2：崩坏3国服客户端标识
  > 以下为分别连接不同的国服服务器时，有效的客户端标识。
 
 - **官服**
   - 安卓国服：`gf_android`，`gf_pc`
-  - iOS国服：`gf_ios`，`gf_pc`
+  - iOS 国服：`gf_ios`，`gf_pc`
   - 全平台（桌面）服：`gf_pc`，`gf_android`，`gf_ios`
 - **渠道服**
-  - Bilibili服：`gf_pc`，`gf_android_bilibili`
+  - Bilibili 服：`gf_pc`，`gf_android_bilibili`
   - 应用宝服：`gf_pc`，`gf_android_tencent`
-  - 渠道1服：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
-  - 渠道2服：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
+  - 渠道 1 服：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
+  - 渠道 2 服：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
 - **测试服**（需搭配测试专用客户端）
   - 安卓测试服：`beta`
-  - iOS测试服：`beta_ios`
+  - iOS 测试服：`beta_ios`
 
 ## 附录3：崩坏3国服服务器的配置信息所在服务器 IP
  > 以下为获取各个国服服务器配置信息时，所访问的服务器 IP。
 
 - **官服**
   - 安卓国服：`106.14.51.73`
-  - iOS国服：`139.224.7.27`
+  - iOS 国服：`139.224.7.27`
   - 全平台（桌面）服：`106.15.162.73`
 - **渠道服**
-  - Bilibili服：`139.196.248.220`
+  - Bilibili 服：`139.196.248.220`
   - 应用宝服：`115.159.20.29`
-  - 渠道1服：`139.196.248.218`
-  - 渠道2服：`139.196.248.219`
+  - 渠道 1 服：`139.196.248.218`
+  - 渠道 2 服：`139.196.248.219`
 - **测试服**（需搭配测试专用客户端）
   - 安卓测试服（外部）：`139.196.1.196:5080`
-  - iOS测试服（外部）：`49.235.123.106:16000`
+  - iOS 测试服（外部）：`49.235.123.106:16000`
 
 ## 附录4：崩坏3服务器状态标识
 - **推荐**：`"retcode": 0`、`"server_state": "Recommend"`
