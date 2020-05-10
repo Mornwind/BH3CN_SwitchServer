@@ -32,7 +32,12 @@
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/iHTTP_Tracker](/iHTTP_Tracker)
 
 ## 配置方法
-1. **下载并导入跨服配置文件**：找到并下载“.iRW”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘iHTTP Tracker’”；在 iHTTP Tracker 中弹出的“检测到导入重写规则”对话框中选择“导入”，即可成功导入。
+1. **下载并导入跨服配置文件**：下载下面的“.iRW”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘iHTTP Tracker’”；在 iHTTP Tracker 中弹出的“检测到导入重写规则”对话框中选择“导入”，即可成功导入。
+
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.iRW
+```
+
 2. **启用跨服配置**：进入“设置”→“规则列表”，在“重写”页面中，确保刚刚导入的跨服配置的开关已打开；然后返回“设置”页面。
 3. **安装 MitM 证书**：进入“设置”→“HTTPS 证书管理”，在“HTTPS 证书管理”页面中点击“前往安装证书”，在跳转的浏览器页面中点击“rootCA.pem”按钮，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装 MitM 所需证书。
 4. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后回到 Thor 的“设置”页面。
