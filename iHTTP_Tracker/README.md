@@ -16,7 +16,8 @@
 5. **若出现资源缺失，需先进 iOS 国服下载资源。**
 
 ## ⚠️ 特别说明 ⚠️
-1. 需 iHTTP Tracker 的 2.0 (32) 及以上 TF 或商店版本。
+1. 需 iHTTP Tracker 的 2.0 (36) 及以上 TF 或商店版本。
+2. 需定时清理抓包记录，避免长时间使用后，占用太多存储空间。
 
 ---
 
@@ -32,10 +33,10 @@
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/iHTTP_Tracker](/iHTTP_Tracker)
 
 ## 配置方法
-1. **下载并导入跨服配置文件**：下载下面的“.iRW”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘iHTTP Tracker’”；在 iHTTP Tracker 中弹出的“检测到导入重写规则”对话框中选择“导入”，即可成功导入。
+1. **下载并导入跨服配置文件**：下载下面的“.cs5”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘iHTTP Tracker’”；在 iHTTP Tracker 中弹出的“检测到导入重写规则”对话框中选择“导入”，即可成功导入。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.iRW
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.cs5
 ```
 
 2. **启用跨服配置**：进入“设置”→“规则列表”，在“重写”页面中，确保刚刚导入的跨服配置的开关已打开；然后返回“设置”页面。
