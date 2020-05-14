@@ -39,18 +39,18 @@
 
 ## iOS 端跨服方式一览
 
-| 跨服工具 | 别名 | 跨服教程 | 跨服配置 |
-| :-: | :-: | :-: | :-: |
-| [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3cn_switchserver_v3.9.0.hcc) |
-| [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.cs5 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.cs5) |
-| [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3cn_switchserver.f4thor) |
-| [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
-| [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |
-| [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) | [配置内容](/Quantumult/README.md) |
-| [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（FlintyLemming）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [配置内容](/Quantumult_X/README.md) |
-| [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) | [配置内容](/Surge_4/README.md) |
-| [Loon](/Loon) | 气球 | 参考 Surge 4 | 参考 Surge 4 |
-| ME 社跨服包 | - | 见 ME 社公众号 | 见 ME 社公众号 |
+| 跨服工具 | 图标 | 别名 | 跨服教程 | 跨服配置 |
+| :-: | :-: | :-: | :-: | :-: |
+| [HTTP Catcher](/HTTP_Catcher) | ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3cn_switchserver_v3.9.0.hcc) |
+| [iHTTP Tracker](/iHTTP_Tracker) | ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.cs5 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.cs5) |
+| [Thor](/Thor) | ![](/Thor/Thor_Icon.png) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3cn_switchserver.f4thor) |
+| [Shadowrocket](/Shadowrocket) | ![](/Shadowrocket/Shadowrocket_Icon.png) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
+| [Pepi](/Pepi) | ![](/Pepi/Pepi_Icon.png) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |
+| [Quantumult](/Quantumult) | ![](/Quantumult/Quantumult_Icon.png) | 圈 | [图文教程](/Quantumult/README.md) | [配置内容](/Quantumult/README.md) |
+| [Quantumult X](/Quantumult_X) | ![](/Quantumult_X/Quantumult_X_Icon.png) | 圈叉 | [图文教程（FlintyLemming）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [配置内容](/Quantumult_X/README.md) |
+| [Surge 4](/Surge_4) | ![](/Surge_4/Surge_4_Icon.png) | - | [图文教程](/Surge_4/README.md) | [配置内容](/Surge_4/README.md) |
+| [Loon](/Loon) | ![](/Loon/Loon_Icon.png) | 气球 | 参考 Surge 4 | 参考 Surge 4 |
+| ME 社跨服包 | - | - | 见 ME 社公众号 | 见 ME 社公众号 |
 
 | 跨服工具 | 国区商店<br/>购买与下载 | 正规渠道价格 | 工具入门<br/>容易程度 | 跨服操作<br/>方便程度 | 设备上同时<br/>挂梯与跨服 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -79,19 +79,19 @@
 
 ## 附录1：App Store 链接
 - **游戏本体**
-  - 崩坏3：[https://apps.apple.com/app/id1143402987](https://apps.apple.com/app/id1143402987)
+  - 崩坏3：<https://apps.apple.com/app/id1143402987>
 
 - **网络调试工具（仅抓包）**
-  - HTTP Catcher：[https://apps.apple.com/app/id1445874902](https://apps.apple.com/app/id1445874902)
-  - iHTTP Tracker：[https://apps.apple.com/app/id1463315864](https://apps.apple.com/app/id1463315864)
-  - Thor：[https://apps.apple.com/app/id1210562295](https://apps.apple.com/app/id1210562295)
+  - HTTP Catcher：<https://apps.apple.com/app/id1445874902>
+  - iHTTP Tracker：<https://apps.apple.com/app/id1463315864>
+  - Thor：<https://apps.apple.com/app/id1210562295>
 - **网络调试工具（抓包、代理）**
-  - Shadowrocket：[https://apps.apple.com/app/id932747118](https://apps.apple.com/app/id932747118)
-  - Pepi：[https://apps.apple.com/app/id1283082051](https://apps.apple.com/app/id1283082051)
-  - Quantumult：[https://apps.apple.com/app/id1252015438](https://apps.apple.com/app/id1252015438)
-  - Quantumult X：[https://apps.apple.com/app/id1443988620](https://apps.apple.com/app/id1443988620)
-  - Surge 4：[https://apps.apple.com/app/id1442620678](https://apps.apple.com/app/id1442620678)
-  - Loon：[https://apps.apple.com/app/id1373567447](https://apps.apple.com/app/id1373567447)
+  - Shadowrocket：<https://apps.apple.com/app/id932747118>
+  - Pepi：<https://apps.apple.com/app/id1283082051>
+  - Quantumult：<https://apps.apple.com/app/id1252015438>
+  - Quantumult X：<https://apps.apple.com/app/id1443988620>
+  - Surge 4：<https://apps.apple.com/app/id1442620678>
+  - Loon：<https://apps.apple.com/app/id1373567447>
 
 ## 附录2：崩坏3国服客户端标识
  > 以下为分别连接不同的国服服务器时，有效的客户端标识。

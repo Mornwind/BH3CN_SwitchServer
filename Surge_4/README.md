@@ -32,7 +32,7 @@
 ## 前期准备
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
-- 工具：[Surge 4](https://apps.apple.com/app/id1442620678)（注：[Loon](https://apps.apple.com/app/id1373567447) 的方法大同小异）
+- 工具：![](/Surge_4/Surge_4_Icon.png) [Surge 4](https://apps.apple.com/app/id1442620678)（注：[Loon](https://apps.apple.com/app/id1373567447) 的方法大同小异）
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Surge_4](/Surge_4)
 
 ## 跨服方法

@@ -30,7 +30,7 @@
 ## 前期准备
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
-- 工具：[Pepi](https://apps.apple.com/app/id1283082051)
+- 工具：![](/Pepi/Pepi_Icon.png) [Pepi](https://apps.apple.com/app/id1283082051)
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Pepi](/Pepi)
 
 ## 配置方法（重定向法）

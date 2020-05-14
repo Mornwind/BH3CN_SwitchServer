@@ -29,7 +29,7 @@
 ## 前期准备
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
-- 工具：[iHTTP Tracker](https://apps.apple.com/app/id1463315864)
+- 工具：![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) [iHTTP Tracker](https://apps.apple.com/app/id1463315864)
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/iHTTP_Tracker](/iHTTP_Tracker)
 
 ## 配置方法

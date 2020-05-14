@@ -33,7 +33,7 @@
 ## 前期准备
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
-- 工具：[Quantumult X](https://apps.apple.com/app/id1443988620)
+- 工具：![](/Quantumult_X/Quantumult_X_Icon.png) [Quantumult X](https://apps.apple.com/app/id1443988620)
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Quantumult_X](/Quantumult_X)
 
 ## 配置教程

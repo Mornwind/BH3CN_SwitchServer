@@ -31,7 +31,7 @@
 ## 前期准备
 - 账号：安卓国服
 - 系统：iOS 12+ / iPadOS 13+
-- 工具：[Shadowrocket](https://apps.apple.com/app/id932747118)
+- 工具：![](/Shadowrocket/Shadowrocket_Icon.png) [Shadowrocket](https://apps.apple.com/app/id932747118)
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Shadowrocket](/Shadowrocket)
 
 ## 配置方法（重定向法）
