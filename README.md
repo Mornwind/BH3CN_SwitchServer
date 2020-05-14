@@ -37,20 +37,21 @@
 
 ---
 
-## iOS 端跨服方式一览
+## 崩坏3 iOS 端常见跨服方式一览
 
-| 跨服工具 | 图标 | 别名 | 跨服教程 | 跨服配置 |
+| 图标 | 跨服工具 | 别名 | 跨服教程 | 跨服配置 |
 | :-: | :-: | :-: | :-: | :-: |
-| [HTTP Catcher](/HTTP_Catcher) | ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3cn_switchserver_v3.9.0.hcc) |
-| [iHTTP Tracker](/iHTTP_Tracker) | ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.cs5 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.cs5) |
-| [Thor](/Thor) | ![](/Thor/Thor_Icon.png) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3cn_switchserver.f4thor) |
-| [Shadowrocket](/Shadowrocket) | ![](/Shadowrocket/Shadowrocket_Icon.png) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
-| [Pepi](/Pepi) | ![](/Pepi/Pepi_Icon.png) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |
-| [Quantumult](/Quantumult) | ![](/Quantumult/Quantumult_Icon.png) | 圈 | [图文教程](/Quantumult/README.md) | [配置内容](/Quantumult/README.md) |
-| [Quantumult X](/Quantumult_X) | ![](/Quantumult_X/Quantumult_X_Icon.png) | 圈叉 | [图文教程（FlintyLemming）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [配置内容](/Quantumult_X/README.md) |
-| [Surge 4](/Surge_4) | ![](/Surge_4/Surge_4_Icon.png) | - | [图文教程](/Surge_4/README.md) | [配置内容](/Surge_4/README.md) |
-| [Loon](/Loon) | ![](/Loon/Loon_Icon.png) | 气球 | 参考 Surge 4 | 参考 Surge 4 |
-| ME 社跨服包 | - | - | 见 ME 社公众号 | 见 ME 社公众号 |
+| ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3cn_switchserver_v3.9.0.hcc) |
+| ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.cs5 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.cs5) |
+| ![](/Thor/Thor_Icon.png) | [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3cn_switchserver.f4thor) |
+| ![](/Shadowrocket/Shadowrocket_Icon.png) | [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
+| ![](/Pepi/Pepi_Icon.png) | [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |
+| ![](/Quantumult/Quantumult_Icon.png) | [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) | [配置内容](/Quantumult/README.md) |
+| ![](/Quantumult_X/Quantumult_X_Icon.png) | [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（FlintyLemming）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [配置内容](/Quantumult_X/README.md) |
+| ![](/Surge_4/Surge_4_Icon.png) | [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) | [配置内容](/Surge_4/README.md) |
+| ![](/Loon/Loon_Icon.png) | [Loon](/Loon) | 气球 | 参考 Surge 4 | 参考 Surge 4 |
+| - | ME 社跨服包 | - | 见 ME 社公众号 | 见 ME 社公众号 |
+| - | 网易云游戏 | - | 见网易云游戏官网 | 见网易云游戏官网 |
 
 | 跨服工具 | 国区商店<br/>购买与下载 | 正规渠道价格 | 工具入门<br/>容易程度 | 跨服操作<br/>方便程度 | 设备上同时<br/>挂梯与跨服 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -65,6 +66,7 @@
 | Loon<br/>（气球） | ❌ | \$2.99 | ★ | ★★ | ✅ |
 | ME 社跨服包<br/>（自签） | - | 免费 | ★★★ | ★ | ✅ |
 | ME 社跨服包<br/>（免签） | - | ¥60.00/三个大版本 | ★★★★★ | ★★★★★ | ✅ |
+| 网易云游戏 | - | ¥15.9/月<br/>¥70/季<br/>¥240/年 | ★★★★★ | ★★★★★ | ✅ |
 
 注：
 
@@ -74,6 +76,8 @@
 
   - 主：`me_shebao`
   - 备：`me_dby`
+
+[3] 网易云游戏官网：<https://cg.163.com>
 
 ---
 
@@ -93,7 +97,7 @@
   - Surge 4：<https://apps.apple.com/app/id1442620678>
   - Loon：<https://apps.apple.com/app/id1373567447>
 
-## 附录2：崩坏3国服客户端标识
+## 附录2：崩坏3 国服客户端标识
  > 以下为分别连接不同的国服服务器时，有效的客户端标识。
 
 - **官服**
@@ -109,7 +113,7 @@
   - 安卓测试服：`beta`
   - iOS 测试服：`beta_ios`
 
-## 附录3：崩坏3国服服务器的配置信息所在服务器 IP
+## 附录3：崩坏3 国服服务器的配置信息所在服务器 IP
  > 以下为获取各个国服服务器配置信息时，所访问的服务器 IP。
 
 - **官服**
@@ -125,7 +129,7 @@
   - 安卓测试服（外部）：`139.196.1.196:5080`
   - iOS 测试服（外部）：`49.235.123.106:16000`
 
-## 附录4：崩坏3服务器状态标识
+## 附录4：崩坏3 服务器状态标识
 - **推荐**：`"retcode": 0`、`"server_state": "Recommend"`
 - **隐藏**：`"retcode": 0`、`"server_state": "HIDE"`
 - **维护**：`"retcode": 2`
