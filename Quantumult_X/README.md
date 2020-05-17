@@ -3,12 +3,14 @@
  > 
  > GitHub Link: [Mornwind/BH3CN_SwitchServer/Quantumult_X](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Quantumult_X)
 
-## 参考来源
- > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
- > 
- > ② FlintyLemming：[QuanX 跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
- > 
- > ③ KorenKrita
+## 致谢
+- **参考&协助**
+  - 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
+  - FlintyLemming：[QuanX 跨服教程](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse)
+- **指导&纠错**
+  - NobyDa
+  - chavyleung
+  - KorenKrita
 
 ---
 
@@ -37,7 +39,7 @@
 - GitHub 项目链接：[Mornwind/BH3CN_SwitchServer/Quantumult_X](/Quantumult_X)
 
 ## 配置教程
-详见 FlintyLemming 的 [Quantumult X 跨服教程](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md)。
+详见 FlintyLemming 的 [Quantumult X 跨服教程](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse/README.md)。
 
 ## 配置方法
 ### 方法 A：重定向法

@@ -3,10 +3,10 @@
  > 
  > GitHub Link: [Mornwind/BH3CN_SwitchServer/Quantumult](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/Quantumult)
 
-## 参考来源
- > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
- > 
- > ② FlintyLemming：[QuanX 跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
+## 致谢
+- **参考&协助**
+  - 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
+  - FlintyLemming：[QuanX 跨服教程](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse)
 
 ---
 

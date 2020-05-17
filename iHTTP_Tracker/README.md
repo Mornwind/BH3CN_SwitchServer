@@ -3,8 +3,9 @@
  > 
  > GitHub Link: [Mornwind/BH3CN_SwitchServer/iHTTP_Tracker](https://github.com/Mornwind/BH3CN_SwitchServer/tree/master/iHTTP_Tracker)
 
-## 参考来源
- > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
+## 致谢
+- **参考&协助**
+  - 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
 
 ---
 

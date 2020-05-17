@@ -3,12 +3,14 @@
  > 
  > GitHub Link: [Mornwind/BH3CN_SwitchServer](https://github.com/Mornwind/BH3CN_SwitchServer)
 
-## 参考来源
- > ① 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
- > 
- > ② FlintyLemming：[QuanX 跨服规则](https://git.flinty.moe/root/BH3_Region_Selector)
- > 
- > ③ KorenKrita
+## 致谢
+- **参考&协助**
+  - 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
+  - FlintyLemming：[QuanX 跨服教程](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse)
+- **指导&纠错**
+  - NobyDa
+  - chavyleung
+  - KorenKrita
 
 ## 前言
 作为一个晚登录两三天没能拿到“登录纪念勋章”的安卓国服的甲板老清洁工，自从嫌弃安卓机的卡慢（以及当年月光的光翼特效显示不出来），咬咬牙入了 iPod touch 和 iPad Pro 之后，便开始发愁：安卓端甲板上的老婆们，要怎么打包带到 iOS 端？
@@ -19,7 +21,7 @@
 
 在跟“FlintyLemming”大佬进行沟通交流的过程中，我也了解到，他在 Quantumult X 上实现的跨服方法，是借鉴B站一位大佬“霞ヶ丘詩羽x”提供的方案而完成的。而本项目，则是同时借鉴了两位大佬的方法，在 Surge 4 上实现了跨服，同时也为 Quantumult X 用户提供了另一种自定义方案。
 
-此项目的初衷，就是为了能让常挂代理工具（如：Surge 4、Quantumult X）的玩家，无需频繁开关代理工具，就能在忘掉有这么一回事的情况下，在 iOS 端直接登入安卓国服，玩到自己的老婆们，哦不，陪自己的老婆们玩。
+此项目的初衷，就是为了能让常挂代理工具（如：Surge 4、Quantumult X）的玩家，无需频繁开关代理工具，就能在忘掉有这么一回事的情况下，在 iOS 端直接登入安卓国服，上舰<del>玩老婆</del>陪老婆玩。
 
 ---
 
@@ -72,10 +74,7 @@
 
 [1] 世界蛇⟡崩3少前跨服群：[`915089623`](https://jq.qq.com/?_wv=1027&k=5rnvPAT)
 
-[2] ME 社公众号：
-
-  - 主：`me_shebao`
-  - 备：`me_dby`
+[2] ME 社微信公众号：（主）`me_shebao`；（备）`me_dby`
 
 [3] 网易云游戏官网：<https://cg.163.com>
 
