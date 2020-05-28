@@ -56,8 +56,8 @@
 
 | 图标 | 跨服工具 | 别名 | 跨服教程 | 跨服配置 |
 | :-: | :-: | :-: | :-: | :-: |
-| ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v3.9.0](/HTTP_Catcher/bh3cn_switchserver_v3.9.0.hcc) |
-| ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.cs5 重写列表文件 v3.9.0](/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.cs5) |
+| ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v4.0.0](/HTTP_Catcher/bh3cn_switchserver_v4.0.0.hcc) |
+| ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.cs5 重写列表文件 v4.0.0](/iHTTP_Tracker/bh3cn_switchserver_v4.0.0.cs5) |
 | ![](/Thor/Thor_Icon.png) | [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3cn_switchserver.f4thor) |
 | ![](/Shadowrocket/Shadowrocket_Icon.png) | [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
 | ![](/Pepi/Pepi_Icon.png) | [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |

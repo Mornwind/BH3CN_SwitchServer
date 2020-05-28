@@ -36,7 +36,7 @@
 1. **下载并导入跨服配置文件**：下载下面的“.hcc”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘HTTP Catcher’”；在 HTTP Catcher 中弹出的“导入”对话框中选择“好的”，即可成功导入。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/HTTP_Catcher/bh3cn_switchserver_v3.9.0.hcc
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/HTTP_Catcher/bh3cn_switchserver_v4.0.0.hcc
 ```
 
 2. **启用跨服配置**：进入“更多”→“重写”，在弹出的“重写列表”界面中，点击下面的跨服配置使其前面出现“✓”。

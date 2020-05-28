@@ -37,7 +37,7 @@
 1. **下载并导入跨服配置文件**：下载下面的“.cs5”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后分享到“iHTTP Tracker”；在 iHTTP Tracker 中弹出的“检测到导入重写规则”对话框中选择“导入”，即可成功导入。
 
 ```
-https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/iHTTP_Tracker/bh3cn_switchserver_v3.9.0.cs5
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/iHTTP_Tracker/bh3cn_switchserver_v4.0.0.cs5
 ```
 
 2. **启用跨服配置**：进入“设置”→“规则列表”，在“重写”页面中，确保刚刚导入的跨服配置的开关已打开；然后返回“设置”页面。
