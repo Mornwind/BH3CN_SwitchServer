@@ -54,22 +54,22 @@
 ### A-1 类型（已全部失效，请勿尝试）
  > A-1：通过**使用网络调试工具**，**在本地重写客户端请求**，**直接**实现跨服。
 
-| 图标 | 跨服工具 | 别名 | 跨服教程 | 跨服配置 |
-| :-: | :-: | :-: | :-: | :-: |
-| ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) | [.hcc 重写列表文件 v4.0.0](/HTTP_Catcher/bh3cn_switchserver_v4.0.0.hcc) |
-| ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) | [.cs5 重写列表文件 v4.0.0](/iHTTP_Tracker/bh3cn_switchserver_v4.0.0.cs5) |
-| ![](/Thor/Thor_Icon.png) | [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) | [.f4thor 过滤器文件](/Thor/bh3cn_switchserver.f4thor) |
-| ![](/Shadowrocket/Shadowrocket_Icon.png) | [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) | [配置内容](/Shadowrocket/README.md) |
-| ![](/Pepi/Pepi_Icon.png) | [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) | [配置内容](/Pepi/README.md) |
-| ![](/Quantumult/Quantumult_Icon.png) | [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) | [配置内容](/Quantumult/README.md) |
-| ![](/Quantumult_X/Quantumult_X_Icon.png) | [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（Flinty）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) | [配置内容](/Quantumult_X/README.md) |
-| ![](/Surge_4/Surge_4_Icon.png) | [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) | [配置内容](/Surge_4/README.md) |
-| ![](/Loon/Loon_Icon.png) | [Loon](/Loon) | 气球 | 参考 Surge 4 | 参考 Surge 4 |
+| 图标 | 跨服工具 | 别名 | 跨服教程与配置 |
+| :-: | :-: | :-: | :-: |
+| ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) |
+| ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) |
+| ![](/Thor/Thor_Icon.png) | [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) |
+| ![](/Shadowrocket/Shadowrocket_Icon.png) | [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) |
+| ![](/Pepi/Pepi_Icon.png) | [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) |
+| ![](/Quantumult/Quantumult_Icon.png) | [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) |
+| ![](/Quantumult_X/Quantumult_X_Icon.png) | [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（Flinty）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) |
+| ![](/Surge_4/Surge_4_Icon.png) | [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) |
+| ![](/Loon/Loon_Icon.png) | [Loon](/Loon) | 气球 | 参考 Surge 4 |
 
 | 跨服工具 | 国区商店<br/>购买与下载 | 正规渠道价格 | 跨服操作<br/>方便程度 | 设备上同时<br/>挂梯与跨服 | 备注 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | HTTP Catcher<br/>（网球） | ✅ | ¥28.00（内购）<br/>\$3.99（内购） | ★★★★ | ❌ | 3.0 版正在开发中 |
-| iHTTP Tracker<br/>（猫头鹰） | ✅ | ¥12.00<br/>\$1.99 | ★★★★ | ❌ | 2.0 版尚在内测中 |
+| iHTTP Tracker<br/>（猫头鹰） | ✅ | ¥12.00<br/>\$1.99 | ★★★★ | ❌ | 需 2.0 版 |
 | Thor<br/>（锤子） | ✅ | ¥88.00<br/>\$12.99 | ★★★★ | ❌ |  |
 | Shadowrocket<br/>（小火箭） | ❌ | \$2.99 | ★★★ | ✅ |  |
 | Pepi | ❌ | \$1.99 | ★★ | ✅ | 开发者已停更 |
