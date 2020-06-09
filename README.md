@@ -56,14 +56,14 @@
 
 | 图标 | 跨服工具 | 别名 | 跨服教程与配置 |
 | :-: | :-: | :-: | :-: |
-| ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | [HTTP Catcher](/HTTP_Catcher) | 网球 | [图文教程](/HTTP_Catcher/README.md) |
-| ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [图文教程](/iHTTP_Tracker/README.md) |
-| ![](/Thor/Thor_Icon.png) | [Thor](/Thor) | 锤子 | [图文教程](/Thor/README.md) |
-| ![](/Shadowrocket/Shadowrocket_Icon.png) | [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) |
-| ![](/Pepi/Pepi_Icon.png) | [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) |
-| ![](/Quantumult/Quantumult_Icon.png) | [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) |
+| ![](/HTTP_Catcher/HTTP_Catcher_Icon.png) | [HTTP Catcher](/HTTP_Catcher) | 网球 | [文字教程](/HTTP_Catcher/README.md) |
+| ![](/iHTTP_Tracker/iHTTP_Tracker_Icon.png) | [iHTTP Tracker](/iHTTP_Tracker) | 猫头鹰 | [文字教程](/iHTTP_Tracker/README.md) |
+| ![](/Thor/Thor_Icon.png) | [Thor](/Thor) | 锤子 | [文字教程](/Thor/README.md) |
+| ![](/Shadowrocket/Shadowrocket_Icon.png) | [Shadowrocket](/Shadowrocket) | 小火箭 | [文字教程](/Shadowrocket/README.md) |
+| ![](/Pepi/Pepi_Icon.png) | [Pepi](/Pepi) | - | [文字教程](/Pepi/README.md) |
+| ![](/Quantumult/Quantumult_Icon.png) | [Quantumult](/Quantumult) | 圈 | [文字教程](/Quantumult/README.md) |
 | ![](/Quantumult_X/Quantumult_X_Icon.png) | [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（Flinty）](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse/README.md) |
-| ![](/Surge_4/Surge_4_Icon.png) | [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) |
+| ![](/Surge_4/Surge_4_Icon.png) | [Surge 4](/Surge_4) | - | [文字教程](/Surge_4/README.md) |
 | ![](/Loon/Loon_Icon.png) | [Loon](/Loon) | 气球 | 参考 Surge 4 |
 
 | 跨服工具 | 国区商店<br/>购买与下载 | 正规渠道价格 | 跨服操作<br/>方便程度 | 设备上同时<br/>挂梯与跨服 | 备注 |
