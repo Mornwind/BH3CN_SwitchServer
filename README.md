@@ -62,7 +62,7 @@
 | ![](/Shadowrocket/Shadowrocket_Icon.png) | [Shadowrocket](/Shadowrocket) | 小火箭 | [图文教程](/Shadowrocket/README.md) |
 | ![](/Pepi/Pepi_Icon.png) | [Pepi](/Pepi) | - | [图文教程](/Pepi/README.md) |
 | ![](/Quantumult/Quantumult_Icon.png) | [Quantumult](/Quantumult) | 圈 | [图文教程](/Quantumult/README.md) |
-| ![](/Quantumult_X/Quantumult_X_Icon.png) | [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（Flinty）](https://git.flinty.moe/root/BH3_Region_Selector/-/blob/master/README.md) |
+| ![](/Quantumult_X/Quantumult_X_Icon.png) | [Quantumult X](/Quantumult_X) | 圈叉 | [图文教程（Flinty）](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse/README.md) |
 | ![](/Surge_4/Surge_4_Icon.png) | [Surge 4](/Surge_4) | - | [图文教程](/Surge_4/README.md) |
 | ![](/Loon/Loon_Icon.png) | [Loon](/Loon) | 气球 | 参考 Surge 4 |
 
