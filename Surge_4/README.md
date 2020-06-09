@@ -96,7 +96,7 @@ hostname = *.bh3.com
 https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver_B.sgmodule
 ```
 
-4. **启用“Rewrite”和“MitM”功能**：回到“首页”中，将“Rewrite”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
+4. **启用“脚本”和“MitM”功能**：回到“首页”中，将“脚本”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
 5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
 6. **启动 Surge 4**：点击“首页”右上角“启动”按钮启动 Surge 4，即可在 iOS 端跨服登录安卓国服。
 
