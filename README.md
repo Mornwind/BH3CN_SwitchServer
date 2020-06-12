@@ -5,8 +5,8 @@
 
 ## 致谢
 - **参考&协助**
-  - 霞ヶ丘詩羽x：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
-  - FlintyLemming：[QuanX 跨服教程](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse)
+  - [霞ヶ丘詩羽x](https://space.bilibili.com/455501)：[B站专栏（cv3610324）](https://www.bilibili.com/read/cv3610324)
+  - [FlintyLemming](https://space.bilibili.com/6876517)：[QuanX 跨服教程](https://bitbucket.flinty.moe/projects/PER/repos/bh3_server_switch/browse)
 - **指导&纠错**
   - NobyDa
   - chavyleung
