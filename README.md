@@ -93,9 +93,9 @@
 #### 配置方法
 1. **下载并导入跨服配置文件**：下载下面的“.hcc”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后选择“拷贝到‘HTTP Catcher’”；在 HTTP Catcher 中弹出的“导入”对话框中选择“好的”，即可成功导入。
 
-  ```
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/HTTP_Catcher/bh3cn_switchserver_v4.0.0.hcc
-  ```
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/HTTP_Catcher/bh3cn_switchserver_v4.0.0.hcc
+```
 
 2. **启用跨服配置**：进入“更多”→“重写”，在弹出的“重写列表”界面中，点击下面的跨服配置使其前面出现“✓”。
 3. **启用重写功能**：在“重写列表”界面中，打开上面的“重写列表”开关；然后回到“更多”页面。
@@ -119,9 +119,9 @@
 #### 配置方法
 1. **下载并导入跨服配置文件**：下载下面的“.cs5”类型的跨服配置文件，通过“共享”或“在其他应用中打开”调出系统分享菜单，然后分享到“iHTTP Tracker”；在 iHTTP Tracker 中弹出的“检测到导入重写规则”对话框中选择“导入”，即可成功导入。
 
-  ```
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/iHTTP_Tracker/bh3cn_switchserver_v4.0.0.cs5
-  ```
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/iHTTP_Tracker/bh3cn_switchserver_v4.0.0.cs5
+```
 
 2. **启用跨服配置**：进入“设置”→“规则列表”，在“重写”页面中，确保刚刚导入的跨服配置的开关已打开；然后返回“设置”页面。
 3. **安装 MitM 证书**：进入“设置”→“HTTPS 证书管理”，在“HTTPS 证书管理”页面中点击“前往安装证书”，在跳转的浏览器页面中点击“rootCA.pem”按钮，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装 MitM 所需证书。
@@ -176,9 +176,9 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 2. **设置路由模式**：将“全局路由”设置为“直连”。
 3. **设置远程订阅 URL**：在“配置文件”页面，点击右上角“+”，输入下面的远程订阅 URL，点击下载。
 
-  ```
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Shadowrocket/bh3cn_switchserver.conf
-  ```
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Shadowrocket/bh3cn_switchserver.conf
+```
 
 4. **下载并应用简易跨服配置**：在“远程文件”中点击该 URL，选择“使用配置”，等待下载完毕后，即可看到“本地文件”中加载了本配置。
 5. **安装 MitM 证书**：从“本地文件”中找到当前正在使用的配置，点击它，在弹出的列表中选择“编辑配置”，进入“HTTPS 解密”，点击“证书授权”部分的“密码”右侧的ⓘ，在弹出的“证书”窗口中点击“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
@@ -192,22 +192,22 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 1. **进入配置编辑界面**：在“配置文件”页面，从“本地文件”中找到当前正在使用的配置，点击它，在弹出的列表中选择“编辑纯文本”。
 2. **添加跨服配置**：在弹出的编辑窗口中，将以下配置中 `[URL Rewrite]`、`[MITM]` 两处下方的代码，在配置文件中分别找到对应位置复制进去，然后点击右上角的“保存”。
 
-  ```
-  [URL Rewrite]
-  # 崩坏3 跨服
-  # > 获取全平台服务器列表
-  ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 HEADER
-  # > 改写连入服务器的客户端标识
-  # >> 安卓国服
-  ^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
-  # >> iOS国服
-  ^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
-  # >> 全平台（桌面）服
-  ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
-  
-  [MITM]
-  hostname = *.bh3.com
-  ```
+```
+[URL Rewrite]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 HEADER
+# > 改写连入服务器的客户端标识
+# >> 安卓国服
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
+# >> iOS国服
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
+# >> 全平台（桌面）服
+^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 HEADER
+
+[MITM]
+hostname = *.bh3.com
+```
 
 3. **安装 MitM 证书**：从“本地文件”中找到当前正在使用的配置，点击它，在弹出的列表中选择“编辑配置”，进入“HTTPS 解密”，点击“证书授权”部分的“密码”右侧的ⓘ，在弹出的“证书”窗口中点击“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
 4. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后返回 Shadowrocket 的“HTTPS 解密”页面。
@@ -233,9 +233,9 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 1. **新建本机节点**：在首页，点击绿色圆按钮下方第一个项目“暂无节点”，进入“服务器节点”页面，点击“添加节点”，然后添加一个类型为“HTTP”（或“HTTPS”）、地址为“localhost”（或“127.0.0.1”）、端口为“1080”（或其它在 1-65535 之间的端口）的节点，然后在“服务器节点”页面。
 2. **下载并应用简易跨服规则文件**：点击主页左上角三横线“☰”，进入“配置”→“规则文件”页面，点击“导入”中的“从 URL 下载”，在弹出的窗口中，输入下面的 URL 下载规则文件，然后在上方“规则文件”列表中点击选中刚刚下载的规则。
 
-  ```
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Pepi/bh3cn_switchserver.conf
-  ```
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Pepi/bh3cn_switchserver.conf
+```
 
 3. **安装 MitM 证书**：回到首页，点击主页左上角三横线“☰”，进入“设置”→“HTTPS”页面，点击“证书”中的“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
 4. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后回到 Pepi 的“HTTPS”页面。
@@ -249,19 +249,19 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 2. **进入配置编辑界面**：点击主页左上角三横线“☰”，进入“配置”→“规则文件”页面，在“规则文件”中找到正在使用的规则文件，左划，点击“编辑”，进入配置编辑界面。
 3. **添加跨服配置**：在弹出的编辑窗口中，将以下配置中 `[URL REWRITE]` 下方的代码，在配置文件中找到对应位置复制进去，然后点击右上角的“保存”。
 
-  ```
-  [URL REWRITE]
-  # 崩坏3 跨服
-  # > 获取全平台服务器列表
-  ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc HEADER
-  # > 改写连入服务器的客户端标识
-  # >> 安卓国服
-  ^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc HEADER
-  # >> iOS国服
-  ^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc HEADER
-  # >> 全平台（桌面）服
-  ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc HEADER
-  ```
+```
+[URL REWRITE]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc HEADER
+# > 改写连入服务器的客户端标识
+# >> 安卓国服
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc HEADER
+# >> iOS国服
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc HEADER
+# >> 全平台（桌面）服
+^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc HEADER
+```
 
 4. **安装 MitM 证书**：回到首页，点击主页左上角三横线“☰”，进入“设置”→“HTTPS”页面，点击“证书”中的“生成新的 CA 证书”，成功生成证书后，再点击“安装根证书”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
 5. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书，然后回到 Pepi 的“HTTPS”页面。
@@ -286,9 +286,9 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 
 1. **下载简易跨服配置**：在“设置”页面的“配置文件”部分，点击“下载配置文件”，在弹出的窗口中输入下面的配置文件下载 URL，点击“好”来下载配置文件，然后在弹出的配置编辑窗口中点击右上角“保存”。
 
-  ```
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult/bh3cn_switchserver.conf
-  ```
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult/bh3cn_switchserver.conf
+```
 
 2. **启用 HTTPS 解密**：在“设置”页面的“TCP”部分，找到“HTTPS 解密”点击进入，然后打开“HTTPS 解密”的开关。
 3. **安装 MitM 证书**：点击下方“密钥及证书”部分中的“生成密钥及证书”，成功生成证书后，点击右上角“保存”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
@@ -303,22 +303,22 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 1. **进入配置编辑界面**：在“设置”页面的“配置文件”部分，点击“编辑配置文件”。
 2. **添加跨服配置**：在弹出的编辑窗口中，将以下配置中 `[REWRITE]`、`[MITM]` 两处下方的代码，在配置文件中分别找到对应位置复制进去，然后点击右上角的“保存”。
 
-  ```
-  [REWRITE]
-  # 崩坏3 跨服
-  # > 获取全平台服务器列表
-  ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url 302 https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4
-  # > 改写连入服务器的客户端标识
-  # >> 安卓国服
-  ^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
-  # >> iOS国服
-  ^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
-  # >> 全平台（桌面）服
-  ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
-  
-  [MITM]
-  hostname = *.bh3.com
-  ```
+```
+[REWRITE]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url 302 https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4
+# > 改写连入服务器的客户端标识
+# >> 安卓国服
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
+# >> iOS国服
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
+# >> 全平台（桌面）服
+^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url 302 http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4
+
+[MITM]
+hostname = *.bh3.com
+```
 
 3. **启用 HTTPS 解密**：在“设置”页面的“TCP”部分，找到“HTTPS 解密”点击进入，然后打开“HTTPS 解密”的开关。
 4. **安装 MitM 证书**：点击下方“密钥及证书”部分中的“生成密钥及证书”，成功生成证书后，点击右上角“保存”，允许下载配置描述文件，前往系统的“设置”→“通用”→“描述文件与设备管理”中安装该证书。
@@ -344,42 +344,42 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 ##### 方法一：重定向法
  > 仅使用 **URL 重定向（URL Rewrite）** 功能实现。
 
-  ```
-  [rewrite_remote]
-  # 崩坏3 跨服（新手直接订阅使用，无需自行更动）
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.conf, tag=BH3CN_SwitchServer, enabled=true
-  ```
+```
+[rewrite_remote]
+# 崩坏3 跨服（新手直接订阅使用，无需自行更动）
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.conf, tag=BH3CN_SwitchServer, enabled=true
+```
 
 ##### 方法二：脚本法
  > 仅使用 **脚本（Script）** 功能实现。
 
 ###### 方法㈠：本地脚本（商店版、TF 版均可用）
 
-  ```
-  [rewrite_local]
-  # 崩坏3 跨服
-  # > 获取全平台服务器列表
-  ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header bh3cn_switchserver.js
-  # > 改写连入服务器的客户端标识
-  ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3cn_switchserver.js
-  
-  [MITM]
-  hostname = *.bh3.com
-  ```
+```
+[rewrite_local]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header bh3cn_switchserver.js
+# > 改写连入服务器的客户端标识
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header bh3cn_switchserver.js
+
+[MITM]
+hostname = *.bh3.com
+```
 
 ###### 方法㈡：远程脚本（仅 TF 版可用）
 
-  ```
-  [rewrite_local]
-  # 崩坏3 跨服
-  # > 获取全平台服务器列表
-  ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.js
-  # > 改写连入服务器的客户端标识
-  ^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.js
-  
-  [MITM]
-  hostname = *.bh3.com
-  ```
+```
+[rewrite_local]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.js
+# > 改写连入服务器的客户端标识
+^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) url script-request-header https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Quantumult_X/bh3cn_switchserver.js
+
+[MITM]
+hostname = *.bh3.com
+```
 
 </details>
 
@@ -400,9 +400,9 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 2. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后回到 Surge 4 的“首页”。
 3. **安装并启用跨服配置模块**：在“首页”中找到“模块”卡片（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见），点击“模块”，在弹出的“模块”界面中，找到“安装的模块”部分，点击“安装新模块...”，然后在弹出的“安装模块”对话框中输入下面的 URL 地址，点“好的”下载模块文件。然后在弹出的配置预览窗口中，**检查有无恶意内容并仔细阅读最下方的“警告”**，在确认无误后，点击最下方的“安装”。回到“模块”界面，即可看到跨服配置模块已成功安装，左侧有“✓”表示该模块已启用。
 
-  ```
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver_A.sgmodule
-  ```
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver_A.sgmodule
+```
 
 4. **启用“Rewrite”和“MitM”功能**：回到“首页”中，将“Rewrite”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
 5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
@@ -413,22 +413,22 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 2. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后回到 Surge 4 的“首页”。
 3. **手动添加跨服配置**：点击“首页”左上角配置名，在弹出的“配置列表”窗口中，点击“在文本模式中编辑”（或是使用任一款编辑器打开你的 Surge 配置文件（.conf）直接进行编辑）。在编辑窗口中，将以下配置中 `[URL Rewrite]`、`[MITM]` 两处下方的代码，在配置文件中分别找到对应位置复制进去，然后点击右上角“完成”保存修改。
 
-  ```
-  [URL Rewrite]
-  # 崩坏3 跨服
-  # > 获取全平台服务器列表
-  ^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 header
-  # > 改写连入服务器的客户端标识
-  # >> 安卓国服
-  ^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
-  # >> iOS国服
-  ^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
-  # >> 全平台（桌面）服
-  ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
-  
-  [MITM]
-  hostname = *.bh3.com
-  ```
+```
+[URL Rewrite]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+) https://$1.bh3.com/query_dispatch?version=$2_gf_pc&t=$4 header
+# > 改写连入服务器的客户端标识
+# >> 安卓国服
+^http:\/\/106\.14\.51\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.14.51.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+# >> iOS国服
+^http:\/\/139\.224\.7\.27\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://139.224.7.27/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+# >> 全平台（桌面）服
+^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+) http://106.15.162.73/query_gameserver?version=$1_gf_pc&t=$3&uid=$4 header
+
+[MITM]
+hostname = *.bh3.com
+```
 
 4. **启用“Rewrite”和“MitM”功能**：回到“首页”中，将“Rewrite”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
 5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
@@ -442,9 +442,9 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 2. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后回到 Surge 4 的“首页”。
 3. **安装并启用跨服配置模块**：在“首页”中找到“模块”卡片（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见），点击“模块”，在弹出的“模块”界面中，找到“安装的模块”部分，点击“安装新模块...”，然后在弹出的“安装模块”对话框中输入下面的 URL 地址，点“好的”下载模块文件。然后在弹出的配置预览窗口中，**检查有无恶意内容并仔细阅读最下方的“警告”**，在确认无误后，点击最下方的“安装”。回到“模块”界面，即可看到跨服配置模块已成功安装，左侧有“✓”表示该模块已启用。
 
-  ```
-  https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver_B.sgmodule
-  ```
+```
+https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver_B.sgmodule
+```
 
 4. **启用“脚本”和“MitM”功能**：回到“首页”中，将“脚本”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
 5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
@@ -455,17 +455,17 @@ https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Thor/bh3cn_
 2. **信任 MitM 证书**：在系统的“设置”→“通用”→“关于本机”→“证书信任设置”中信任该证书；然后回到 Surge 4 的“首页”。
 3. **手动添加跨服配置**：点击“首页”左上角配置名，在弹出的“配置列表”窗口中，点击“在文本模式中编辑”（或是使用任一款编辑器打开你的 Surge 配置文件（.conf）直接进行编辑）。在编辑窗口中，将以下配置中 `[Script]`、`[MITM]` 两处下方的代码，在配置文件中分别找到对应位置复制进去，然后点击右上角“完成”保存修改。
 
-  ```
-  [Script]
-  # 崩坏3 跨服
-  # > 获取全平台服务器列表
-  bh3cn_switchserver = type=http-request,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
-  # > 改写连入服务器的客户端标识
-  bh3cn_switchserver = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
-  
-  [MITM]
-  hostname = *.bh3.com
-  ```
+```
+[Script]
+# 崩坏3 跨服
+# > 获取全平台服务器列表
+bh3cn_switchserver = type=http-request,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
+# > 改写连入服务器的客户端标识
+bh3cn_switchserver = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
+
+[MITM]
+hostname = *.bh3.com
+```
 
 4. **启用“脚本”和“MitM”功能**：回到“首页”中，将“脚本”和“MitM”两个卡片的开关打开（若未找到，则去“更多”→“外观”→“卡片”中将该卡片设为可见）。
 5. **启用“始终开启”功能**：在“更多”→“设置”→“始终开启”中，打开“自动启动 Surge”的开关，即可保持 Surge 4 一直后台开启。
