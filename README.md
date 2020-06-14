@@ -541,39 +541,34 @@ hostname = *.bh3.com
   - Surge 4：<https://apps.apple.com/app/id1442620678>
   - Loon：<https://apps.apple.com/app/id1373567447>
 
-## 附录2：「崩坏3」国服客户端标识
- > 以下为分别连接不同的国服服务器时，有效的客户端标识。
+## 附录2：「崩坏3」国服客户端登录参数
+ > 以下为分别连接不同的国服服务器时，有效的客户端登录参数。
 
-- **官服**
-  - 安卓国服：`gf_android`，`gf_pc`
-  - iOS 国服：`gf_ios`，`gf_pc`
-  - 全平台（桌面）服：`gf_pc`，`gf_android`，`gf_ios`
-- **渠道服**
-  - Bilibili 服：`gf_pc`，`gf_android_bilibili`
-  - 应用宝服：`gf_pc`，`gf_android_tencent`
-  - 渠道 1 服：`gf_pc`，`gf_android_coolpad`，`gf_android_gionee`，`gf_android_huawei`，`gf_android_lenovo`，`gf_android_oppo`，`gf_android_vivo`
-  - 渠道 2 服：`gf_pc`，`gf_android_qihoo`，`gf_android_uc`，`gf_android_wandoujia`，`gf_android_xiaomi`
-- **测试服**（需搭配测试专用客户端）
-  - 安卓测试服：`beta`
-  - iOS 测试服：`beta_ios`
+### 官服
 
-## 附录3：「崩坏3」国服服务器的配置信息所在服务器 IP
- > 以下为获取各个国服服务器配置信息时，所访问的服务器 IP。
+| 服务器\参数 | 客户端标识 | 配置服务器 IP |
+| :-: | :-: | :-: |
+| 安卓国服 | `gf_android`<br/>`gf_pc` | `106.14.51.73` |
+| iOS 国服 | `gf_ios`<br/>`gf_pc` | `139.224.7.27` |
+| 全平台（桌面）服 | `gf_pc`<br/>`gf_android`<br/>`gf_ios` | `106.15.162.73` |
 
-- **官服**
-  - 安卓国服：`106.14.51.73`
-  - iOS 国服：`139.224.7.27`
-  - 全平台（桌面）服：`106.15.162.73`
-- **渠道服**
-  - Bilibili 服：`139.196.248.220`
-  - 应用宝服：`115.159.20.29`
-  - 渠道 1 服：`139.196.248.218`
-  - 渠道 2 服：`139.196.248.219`
-- **测试服**（需搭配测试专用客户端）
-  - 安卓测试服（外部）：`139.196.1.196:5080`
-  - iOS 测试服（外部）：`49.235.123.106:16000`
+### 渠道服
 
-## 附录4：「崩坏3」服务器状态标识
+| 服务器\参数 | 客户端标识 | 配置服务器 IP |
+| :-: | :-: | :-: |
+| Bilibili 服 | `gf_pc`<br/>`gf_android_bilibili` | `139.196.248.220` |
+| 应用宝服 | `gf_pc`<br/>`gf_android_tencent` | `115.159.20.29` |
+| 渠道 1 服 | `gf_pc`<br/>`gf_android_coolpad`<br/>`gf_android_gionee`<br/>`gf_android_huawei`<br/>`gf_android_lenovo`<br/>`gf_android_oppo`<br/>`gf_android_vivo` | `139.196.248.218` |
+| 渠道 2 服 | `gf_pc`<br/>`gf_android_qihoo`<br/>`gf_android_uc`<br/>`gf_android_wandoujia`<br/>`gf_android_xiaomi` | `139.196.248.219` |
+
+### 测试服（需搭配测试专用客户端）
+
+| 服务器\参数 | 客户端标识 | 配置服务器 IP |
+| :-: | :-: | :-: |
+| 安卓测试服（外部） | `beta` | `139.196.1.196:5080` |
+| iOS 测试服（外部） | `beta_ios` | `49.235.123.106:16000` |
+
+## 附录3：「崩坏3」服务器状态标识
 - **推荐**：`"retcode": 0`、`"server_state": "Recommend"`
 - **隐藏**：`"retcode": 0`、`"server_state": "HIDE"`
 - **维护**：`"retcode": 2`
