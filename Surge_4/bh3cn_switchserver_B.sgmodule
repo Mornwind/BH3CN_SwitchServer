@@ -5,9 +5,9 @@
 [Script]
 # 崩坏3 跨服
 # > 获取全平台服务器列表
-bh3cn_switchserver.js = type=http-request,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
+bh3cn_switchserver = type=http-request,pattern=^https:\/\/(.+?)\.bh3\.com\/query_dispatch\?version=(.+?)_gf_(.+?)&t=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
 # > 改写连入服务器的客户端标识
-bh3cn_switchserver.js = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
+bh3cn_switchserver = type=http-request,pattern=^http:\/\/(.+?)\/query_gameserver\?version=(.+?)_gf_(.+?)&t=(\d+)&uid=(\d+),script-path=https://raw.githubusercontent.com/Mornwind/BH3CN_SwitchServer/master/Surge_4/bh3cn_switchserver.js
 
 [MITM]
 hostname = %APPEND% *.bh3.com
